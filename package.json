@@ -14,6 +14,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy":"npm run build",
-    "deploy":"node ghdeploy.js"
+    "deploy":"node ghdeploy.js",
+    "watch": "node watch.js"
   }
 }
