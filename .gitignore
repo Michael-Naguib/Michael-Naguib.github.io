@@ -5,6 +5,7 @@
 
 # testing
 /coverage
+start.txt
 
 # production
 #/build

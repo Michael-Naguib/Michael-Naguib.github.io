@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "badce0a798665b6f39fc"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "d7290c9eaab1ac4a248f"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -36136,6 +36136,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__index_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__App__ = __webpack_require__(/*! ./App */ "./src/App.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__registerServiceWorker__ = __webpack_require__(/*! ./registerServiceWorker */ "./src/registerServiceWorker.js");
+throw new Error("Cannot find module \"jquery\"");
 var _jsxFileName = 'C:\\Users\\Mike\\Documents\\GitHub\\Michael-N.github.io\\src\\index.js';
 
 
@@ -36143,14 +36144,43 @@ var _jsxFileName = 'C:\\Users\\Mike\\Documents\\GitHub\\Michael-N.github.io\\src
 
 
 
-__WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__App__["a" /* default */], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 7
-  },
-  __self: this
-}), document.getElementById('root'));
-Object(__WEBPACK_IMPORTED_MODULE_4__registerServiceWorker__["a" /* default */])();
+
+__WEBPACK_IMPORTED_MODULE_5_jquery___default()(document).ready(function () {
+
+    __WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__App__["a" /* default */], {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 10
+        },
+        __self: this
+    }), document.getElementById('root'));
+    Object(__WEBPACK_IMPORTED_MODULE_4__registerServiceWorker__["a" /* default */])();
+
+    //Video element~cache the reference (!!!! this is cached and used in splashDoParalax do not change)
+    var splashParalax = document.getElementById("splash-paralax");
+
+    //set initial styling 
+    splashParalax.style.transform = 'translate(-50%,-50% )';
+
+    var splashDoParalax = function splashDoParalax(dTop) {
+
+        //Consider preventing it from changing once it goes past the text's height ---> the maximum  allowed change is 1/2 the difference between the
+        // texts computed height and the video's computed height assuming both are centered in a parent element of the same size and are overlapping 
+        //overlay
+
+        //How far the user has scrolled from the top of the page = dTop
+        //calculate change~~~ dTop*paralaxRate
+        var change = dTop * 0.15 + 50;
+        //update the dom 
+        splashParalax.style.transform = 'translate(-50%,-' + change + '% )';
+    };
+
+    __WEBPACK_IMPORTED_MODULE_5_jquery___default()(window).on("load scroll", function () {
+
+        //Splash Paralax 
+        splashDoParalax(__WEBPACK_IMPORTED_MODULE_5_jquery___default()(this).scrollTop());
+    });
+});
 
 /***/ }),
 
