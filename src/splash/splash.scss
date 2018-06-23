@@ -1,3 +1,5 @@
+// Forenote: TL;DR I commented way too much... be more minimalist in the future... this code is just hard to read now
+
 //Variables:
 	// The fill color of the mask~ must be rgb
 	$splashMaskFill: rgb(255,255,255);
@@ -14,7 +16,7 @@ html {
 }
 .splash{
 	
-	//enables overlay: needed for the child's z-index prop
+	//enables overlay: needed for the child's z-index  prop
 	position: relative;
 	
 	//Size!!!! Set the component's height ... make sure to account for the svg text and video size
@@ -22,6 +24,7 @@ html {
 	height:$splashHeight;
 	
  }
+
 .splash-overlay, .splash-video{
 	
 	//set them both 'absolute' to parent element ~both have same parent

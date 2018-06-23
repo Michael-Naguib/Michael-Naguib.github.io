@@ -1,0 +1,72 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility; }
+
+.splashes {
+  position: relative;
+  width: 100%;
+  height: 600px; }
+
+.splash-overlay, .splash-video {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  top: 0px;
+  left: 0px; }
+
+.splash-overlay {
+  z-index: 10;
+  height: 100%;
+  width: 100%; }
+
+.splash-svg {
+  width: 100%;
+  height: 100%; }
+
+.splash-background {
+  fill: white;
+  width: 100%;
+  height: 100%; }
+
+.splash-text {
+  text-anchor: middle;
+  font-weight: 900;
+  letter-spacing: -4px;
+  font-size: 12em;
+  font-family: "Brush Script MT","Century Gothic",'Open Sans','Papyrus', sans-serif;
+  height: 100%;
+  width: 100%; }
+
+.splash-masker {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 100%;
+  mask: url(#splash-mask);
+  fill: white; }
+
+.splash-video {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
+.splash-bg-video {
+  width: 100%;
+  height: auto;
+  left: 50%;
+  position: absolute;
+  top: 50%; }
+
+/*
+
+\log _{{{\sqrt[ {\varphi }]{\varphi }}}}(\varphi )=\varphi   golden dragon 
+
+julia set 2
+
+2D DLA Cluster
+
+
+
+
+*/

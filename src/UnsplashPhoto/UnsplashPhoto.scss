@@ -1,0 +1,57 @@
+.UnsplashPhoto{
+    height:800px;
+    width: 100%;
+    position: relative;
+    background: url('./adrian-226109-unsplash.jpg') center center no-repeat;
+    background-size: cover;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(#ffffff,#ffffff00);
+        opacity: 1; 
+      }
+
+    #endrights{
+        position:absolute;
+        bottom: 0px;
+        padding:3px;
+        right:0px;
+        color:#535353fb;
+    }
+
+    a{
+        position:absolute;
+        bottom:0px;
+        left:0px;
+
+        background-color:black;
+        color:white;
+        text-decoration:none;
+        padding:4px 6px;
+        font-family:BlinkMacSystemFont,Helvetica, Ubuntu, Roboto, Noto, Arial, sans-serif;
+        font-size:12px;
+        font-weight:bold;
+        line-height:1.2;
+        display:inline-block;
+        border-radius:3px;
+    }
+
+    span{
+        display:inline-block;
+        padding:2px 3px;
+
+        svg{
+            height:12px;
+            width:auto;
+            position:relative;
+            vertical-align:middle;
+            top:-1px;
+            fill:white;
+        }
+    }
+}

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './splash.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactPlayer from 'react-player';
 
-import ReactPlayer from 'react-player'
 class Splash extends Component {
     render() {
       return (

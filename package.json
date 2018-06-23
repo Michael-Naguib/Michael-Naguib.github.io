@@ -4,10 +4,12 @@
   "private": true,
   "homepage": "https://michael-n.github.io",
   "dependencies": {
+    "classnames": "^2.2.6",
     "node-sass-chokidar": "^1.3.0",
     "npm-run-all": "^4.1.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-parallax": "^1.8.0",
     "react-player": "^1.6.4",
     "react-scripts": "1.1.4"
   },
@@ -20,12 +22,15 @@
     "deploy": "node ghdeploy.js",
     "watch": "node watch.js",
     "build-css": "node-sass-chokidar src/ -o src/",
-    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/--watch --recursive",
-    "hedgehog":"npm-run-all watch-css start"
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "hedgehog": "start npm run watch-css && start npm run start && echo 'DEVELOPMENT TERMINAL'"
   },
   "devDependencies": {
+    "bootstrap": "^4.1.1",
+    "classnames": "^2.2.6",
     "jquery": "^3.3.1",
     "node-sass": "^4.9.0",
+    "react-parallax": "^1.8.0",
     "sass-loader": "^7.0.3"
   }
 }

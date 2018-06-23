@@ -1,41 +1,23 @@
+//IMports
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-import $ from 'jquery';  
+import App from './App/App.js';
+import registerServiceWorker from './extra/registerServiceWorker';
+//import paralaxLib from "./extra/parallax-1-4-2.js";
+import $ from 'jquery';
+import SplashScript from "./splash/splash-script.js";
 
+// Main
 $(document).ready(function(){
 
+    //Render App
     ReactDOM.render(<App />, document.getElementById('root'));
     registerServiceWorker();
 
-  
-    //Video element~cache the reference (!!!! this is cached and used in splashDoParalax do not change)
-    var splashParalax = document.getElementById("splash-paralax");
+    //Other Scripts
+    SplashScript();
     
-    //set initial styling 
-    splashParalax.style.transform  = 'translate(-50%,-50% )';
-    
-    var splashDoParalax= function(dTop){
-        
-        //Consider preventing it from changing once it goes past the text's height ---> the maximum  allowed change is 1/2 the difference between the
-        // texts computed height and the video's computed height assuming both are centered in a parent element of the same size and are overlapping 
-        //overlay
-        
-        //How far the user has scrolled from the top of the page = dTop
-        //calculate change~~~ dTop*paralaxRate
-        var change = (dTop*0.15) + 50;
-        //update the dom 
-        splashParalax.style.transform  =  'translate(-50%,-'+change+'% )';
-    }
-
-    $(window).on("load scroll",function(){ 
-       
-        //Splash Paralax 
-        splashDoParalax($(this).scrollTop());
-
-    });
     
 });
 
