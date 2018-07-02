@@ -121,17 +121,17 @@ html {
 	
 	//preserve aspect ratio and become full size pozible clipping height to preserve ratio
 	//for some reason this is buggy~ if the page loads small screensize then is resized larger the overlay does not correct~ opposite does not hold...
-	width:100%;
-	height:auto;
-	
+	width:100% !important; 
+	height:auto !important;
+	//margin:auto
 	//Center the video at the center of .splash-video so that it is underneath the transparent text
 	left: 50%;
     position: absolute;
-    top: 50%;
+    top: 40%;
     //transform: translate(-50%, -50%); !!! this is done in index.jsx as a paralax effect!!!! 
 	//Different settings in order to make sure the video does not go past the text may be needed: index.jsx splashDoParalax paralaxRate
 	//the settings autoplay & loop & muted are set as true as an inline attribute in splash.pug 
-}
+} 
 
 
 //Ideas for the snowflake design~~

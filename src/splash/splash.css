@@ -52,11 +52,11 @@ html {
   overflow: hidden; }
 
 .splash-bg-video {
-  width: 100%;
-  height: auto;
+  width: 100% !important;
+  height: auto !important;
   left: 50%;
   position: absolute;
-  top: 50%; }
+  top: 40%; }
 
 /*
 

@@ -15,7 +15,7 @@ function SplashScript(){
         
         //How far the user has scrolled from the top of the page = dTop
         //calculate change~~~ dTop*paralaxRate
-        var change = (dTop*0.15) + 50;
+        var change = (dTop*0.19) + 50;
         //update the dom 
         splashParalax.style.transform  =  'translate(-50%,-'+change+'% )';
     }
