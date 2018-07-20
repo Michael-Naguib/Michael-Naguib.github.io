@@ -1,4 +1,4 @@
-import 'Navbar.scss';
+import './Navbar.scss';
 
 console.log('hello world');
 

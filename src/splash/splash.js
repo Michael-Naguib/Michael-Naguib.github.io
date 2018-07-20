@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './splash.scss';
+import './Splash.scss';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactPlayer from 'react-player';
 
@@ -34,11 +34,11 @@ class Splash extends Component {
               <svg className="splash-svg">
                 <defs>
                   <mask className="splash-mask" id="splash-mask" x="0" y="0" >
-                    <rect className="splash-background" x="0" y="0" height="80%" width="80%" />
+                    <rect className="splash-background" x="0" y="0" height="100%" width="100%" />
 					          <text className="splash-text" x="50%" y="0" dy="50%"> &#60;{this.state.msg}&#47;&#62; </text>
                   </mask>
                 </defs>
-                <rect className="splash-masker" x="0" y="0" height="80%" width="80%"/>
+                <rect className="splash-masker" x="0" y="0" height="100%" width="100%"/>
               </svg>
             </div>
             <div className="splash-video">

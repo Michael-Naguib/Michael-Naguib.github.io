@@ -6,7 +6,7 @@ import App from './App/App.js';
 import registerServiceWorker from './extra/registerServiceWorker';
 //import paralaxLib from "./extra/parallax-1-4-2.js";
 import $ from 'jquery';
-import SplashScript from "./splash/splash-script.js";
+import SplashScript from "./Splash/splash-script.js";
 
 // Main
 $(document).ready(function(){

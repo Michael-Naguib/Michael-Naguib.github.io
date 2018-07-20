@@ -151,7 +151,7 @@ module.exports = {
               // This is a feature of `babel-loader` for webpack (not Babel itself).
               // It enables caching results in ./node_modules/.cache/babel-loader/
               // directory for faster rebuilds.
-              cacheDirectory: true,
+              cacheDirectory: true
             },
           },
           // "postcss" loader applies autoprefixer to our CSS.
@@ -176,22 +176,40 @@ module.exports = {
             })
           },
           {
-            test:/\.scss$/,
-            use: ExtractTextPlugin.extract({
-              fallback:'style-loader',
-              use:[
-                {
-                  loader:'css-loader',
-                  options:{
-                    modules:true,
-                    sourceMap:true,
-                    importLoaders:2,
-                    localIdentName:'[name]__[local]___[hash:base64:5]'
-                  }
+            test: /\.scss$/,
+            use: [
+              {
+                loader: require.resolve('style-loader'),
+              },
+              {
+                loader: require.resolve('css-loader'),
+                options: {
+                  importLoaders: 1,
+                }
+              },
+              {
+                loader: require.resolve('postcss-loader'),
+                options: {
+                  ident: 'postcss',
+                  plugins: () => [
+                    require('postcss-flexbugs-fixes'),
+                    autoprefixer({
+                      browsers: [
+                        '>1%',
+                        'last 4 versions',
+                        'Firefox ESR',
+                        'not ie < 9',  
+                      ],
+                      flexbox: 'no-2009',
+                    }),
+                  ],
                 },
-                'sass-loader'
-              ]
-            })
+              }, 
+              {
+                loader: require.resolve('sass-loader'),
+              },
+              
+            ]
           },
           // "file" loader makes sure those assets get served by WebpackDevServer.
           // When you `import` an asset, you get its (virtual) filename.
