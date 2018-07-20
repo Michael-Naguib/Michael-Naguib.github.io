@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./Overlayer.css";
+import "./Overlayer.scss";
 
 class Overlayer extends Component{
     constructor(props){

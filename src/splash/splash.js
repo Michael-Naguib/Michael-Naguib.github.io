@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './splash.css';
+import './splash.scss';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactPlayer from 'react-player';
 

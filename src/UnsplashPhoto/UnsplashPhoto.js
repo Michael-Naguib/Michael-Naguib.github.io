@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './UnsplashPhoto.css';
+import './UnsplashPhoto.scss';
 //import { Parallax, Background } from 'react-parallax';
 
 class UnsplashPhoto extends Component {
