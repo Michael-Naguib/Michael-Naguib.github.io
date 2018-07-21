@@ -1,6 +1,4 @@
-import "./AboutMe.scss";
 import React, { Component } from 'react';
-//import 'bootstrap/dist/css/bootstrap.min.css';
 import classnames from 'classnames';
 import imgpath from "./MichaelProfilePicBlurred.png";
 

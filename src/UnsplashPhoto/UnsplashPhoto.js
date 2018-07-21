@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import './UnsplashPhoto.scss';
-//import { Parallax, Background } from 'react-parallax';
 
 class UnsplashPhoto extends Component {
     render() {
