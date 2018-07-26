@@ -2,7 +2,7 @@
     height:800px;
     width: 100%;
     position: relative;
-    background: url('./UnsplashPhoto/adrian-226109-unsplash.jpg') center center no-repeat;
+    background: url('./src/UnsplashPhoto/adrian-226109-unsplash.jpg') center center no-repeat;
     background-size: cover;
 
     &:before {
@@ -12,7 +12,7 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background-image: linear-gradient(#ffffff,#ffffff00);
+        background-image: linear-gradient(#ffffff,rgba(#ffffff,0));
         opacity: 1; 
       }
 
@@ -21,7 +21,7 @@
         bottom: 0px;
         padding:3px;
         right:0px;
-        color:#535353fb;
+        color:rgba(#535353,0.9);
     }
 
     a{

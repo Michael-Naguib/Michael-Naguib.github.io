@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
+import '../assets/splash-video-3.mp4';
 
 class Splash extends Component {
 
@@ -11,13 +12,11 @@ class Splash extends Component {
 
   updatetext(){
     //updates the text by screen width for mobile responsivenenss 
-    console.log("Updating.......")
     if (window.innerWidth <= 820){
       this.setState({msg:"M"})
     }else{
       this.setState( {msg:"Michael"});
     }
-    console.log("updated")
   }
 
   componentDidMount() {
@@ -40,7 +39,7 @@ class Splash extends Component {
               </svg>
             </div>
             <div className="splash-video">
-              <ReactPlayer className="splash-bg-video" id="splash-paralax" url='assets/splash-video-3.mp4' playing loop muted/>
+              <ReactPlayer className="splash-bg-video" id="splash-paralax" url='./splash-video-3.271aeda4.mp4' playing loop muted/>
             </div>
         </div>
       );
