@@ -12,6 +12,7 @@
     "babel-preset-react": "^6.24.1",
     "classnames": "^2.2.6",
     "global": "^4.3.2",
+    "hamburgers": "^0.9.3",
     "jquery": "^3.3.1",
     "node-sass": "^4.9.2",
     "parcel-bundler": "^1.9.7",

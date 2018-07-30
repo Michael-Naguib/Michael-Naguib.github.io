@@ -3,7 +3,7 @@
 .Nav-button{
     text-decoration:none !important;
     padding:20px;
-    display:inline-block;
+    display:none;//the react script changes this to inline-block
     overflow:hidden;
     position: relative;
     
@@ -16,7 +16,9 @@
         width: 100%;
         color:$color-l-accent;
         transition:color 0.5s;
-        transition-timing-function: cubic-bezier(.12,.2,.25,1.16);;
+        transition-timing-function: cubic-bezier(.12,.2,.25,1.16);
+        font-family: $title-font-stack;
+        font-size: 1.5em;
     }
 
 }

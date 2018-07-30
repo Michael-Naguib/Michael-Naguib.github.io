@@ -1,11 +1,10 @@
 // Forenote: TL;DR I commented way too much... be more minimalist in the future... this code is just hard to read now
-
+@import '../extra/variables';
 //Variables:
 	// The fill color of the mask~ must be rgb
 	$splashMaskFill: rgb(255,255,255);
-
 	//The height of the entire component 'splash' ~be sure to account for video and text heights
-	$splashHeight: 600px;
+	$splashHeight: 475px;
 
 // Items are in order as they appear top down in splash.pug or are inherent to the document
 html {
@@ -22,8 +21,16 @@ html {
 	//Size!!!! Set the component's height ... make sure to account for the svg text and video size
 	width: 100%;
 	height:$splashHeight;
+	overflow:hidden;
 	
  }
+
+ #splash-paralax{
+	transform:translate(-50%,-50% )
+ }
+.splash-video{
+	border:10px solid white;//to fix the firefox 1px still visible glitch 10px needed...
+}
 
 .splash-overlay, .splash-video{
 	
@@ -85,9 +92,9 @@ html {
 	//fix so the letters do appear far appart because of default stylings
 	letter-spacing: -4px;
 	//define the font size (very large but relativly responsive hence em)
-	font-size:12em;
+	font-size:10em;
 	// set the font and its backup
-	font-family: "Brush Script MT","Century Gothic",'Open Sans','Papyrus', sans-serif;
+	font-family: $title-font-stack;
 	
 	height:100%;
 	width: 100%;
@@ -106,7 +113,7 @@ html {
 	
 	//The fill color for the mask in rgb format!!!!
 	fill:$splashMaskFill;
-		
+	
 }
 .splash-video{
 	
@@ -116,6 +123,7 @@ html {
 	
 	//fix the 1px overflow of .bv-video
 	overflow:hidden;
+	
 }
 .splash-bg-video{
 	
@@ -131,6 +139,7 @@ html {
     //transform: translate(-50%, -50%); !!! this is done in index.jsx as a paralax effect!!!! 
 	//Different settings in order to make sure the video does not go past the text may be needed: index.jsx splashDoParalax paralaxRate
 	//the settings autoplay & loop & muted are set as true as an inline attribute in splash.pug 
+	//filter: blur(8px);
 } 
 
 

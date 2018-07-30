@@ -15,7 +15,7 @@ import App from './src/App/App.jsx';
 import registerServiceWorker from './src/extra/registerServiceWorker';
 //import paralaxLib from "./extra/parallax-1-4-2.js";
 import $ from 'jquery';
-import SplashScript from "./src/Splash/splash-script.js";
+//import SplashScript from "./src/Splash/splash-script.js";
 
 //Css imports
 import './index.scss';
@@ -28,6 +28,5 @@ $(document).ready(function(){
     registerServiceWorker();
 
     //Other Scripts
-    SplashScript();
     
 });
