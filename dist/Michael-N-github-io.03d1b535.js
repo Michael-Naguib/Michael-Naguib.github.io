@@ -26837,8 +26837,7 @@ var App = function (_Component) {
         null,
         _react2.default.createElement(_Navbar2.default, null),
         _react2.default.createElement(_Splash2.default, null),
-        _react2.default.createElement(_UnsplashPhoto2.default, null),
-        _react2.default.createElement(_AboutMe2.default, null)
+        _react2.default.createElement(_UnsplashPhoto2.default, null)
       );
     }
   }]);
@@ -26847,6 +26846,7 @@ var App = function (_Component) {
 }(_react.Component);
 
 exports.default = App;
+//        <AboutMe/>
 },{"react":"node_modules\\react\\index.js","../Splash/Splash.jsx":"src\\Splash\\Splash.jsx","../UnsplashPhoto/UnsplashPhoto.jsx":"src\\UnsplashPhoto\\UnsplashPhoto.jsx","../AboutMe/AboutMe.jsx":"src\\AboutMe\\AboutMe.jsx","../Navbar/Navbar.jsx":"src\\Navbar\\Navbar.jsx"}],"src\\extra\\registerServiceWorker.js":[function(require,module,exports) {
 'use strict';
 
@@ -37472,7 +37472,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '64995' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49417' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 

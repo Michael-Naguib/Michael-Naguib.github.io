@@ -13,10 +13,11 @@ class App extends Component {
         <Navbar/>
         <Splash/>
         <UnsplashPhoto/>
-        <AboutMe/>
+
       </div>
     );
   }
 }
 
 export default App;
+//        <AboutMe/>
