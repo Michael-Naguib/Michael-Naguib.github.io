@@ -26450,7 +26450,11 @@ var Splash = function (_Component) {
 
 
 exports.default = Splash;
-},{"react":"node_modules\\react\\index.js","react-player":"node_modules\\react-player\\lib\\ReactPlayer.js","../assets/splash-video-3.mp4":"src\\assets\\splash-video-3.mp4"}],"src\\UnsplashPhoto\\UnsplashPhoto.jsx":[function(require,module,exports) {
+},{"react":"node_modules\\react\\index.js","react-player":"node_modules\\react-player\\lib\\ReactPlayer.js","../assets/splash-video-3.mp4":"src\\assets\\splash-video-3.mp4"}],"..\\..\\..\\node_modules\\react\\react.js":[function(require,module,exports) {
+'use strict';
+
+module.exports = require('./lib/React');
+},{"./lib/React":"..\\..\\..\\node_modules\\react\\lib\\React.js"}],"src\\UnsplashPhoto\\UnsplashPhoto.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -26518,7 +26522,7 @@ var UnsplashPhoto = function (_Component) {
 
 
 exports.default = UnsplashPhoto;
-},{"react":"node_modules\\react\\index.js"}],"node_modules\\classnames\\index.js":[function(require,module,exports) {
+},{"react":"..\\..\\..\\node_modules\\react\\react.js"}],"node_modules\\classnames\\index.js":[function(require,module,exports) {
 var define;
 /*!
   Copyright (c) 2017 Jed Watson.
@@ -26686,7 +26690,7 @@ function NavButton(props) {
 }
 
 exports.default = NavButton;
-},{"react":"node_modules\\react\\index.js"}],"src\\Navbar\\NavNav.jsx":[function(require,module,exports) {
+},{"react":"..\\..\\..\\node_modules\\react\\react.js"}],"src\\Navbar\\NavNav.jsx":[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26725,7 +26729,7 @@ function NavNav(props) {
     );
 }
 exports.default = NavNav;
-},{"react":"node_modules\\react\\index.js"}],"src\\Navbar\\Navbar.jsx":[function(require,module,exports) {
+},{"react":"..\\..\\..\\node_modules\\react\\react.js"}],"src\\Navbar\\Navbar.jsx":[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26783,7 +26787,7 @@ var Navbar = function (_Component) {
 }(_react.Component);
 
 exports.default = Navbar;
-},{"react":"node_modules\\react\\index.js","./NavButton.jsx":"src\\Navbar\\NavButton.jsx","./NavNav.jsx":"src\\Navbar\\NavNav.jsx"}],"src\\App\\App.jsx":[function(require,module,exports) {
+},{"react":"..\\..\\..\\node_modules\\react\\react.js","./NavButton.jsx":"src\\Navbar\\NavButton.jsx","./NavNav.jsx":"src\\Navbar\\NavNav.jsx"}],"src\\App\\App.jsx":[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -37472,7 +37476,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49417' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '58328' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
