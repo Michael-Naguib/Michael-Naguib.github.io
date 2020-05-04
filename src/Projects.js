@@ -46,7 +46,7 @@ function ProjectCardDeck(){
             </Card>
             <Card className="bg-dark text-white" text="black">
                 <a href="https://github.com/Michael-Naguib/ChaoticIFSFractal3D"  className={"ProjectsLink"}>
-                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/3DFractal.gif"}/>
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/3dFractal.gif"}/>
                     <Card.Body bg="Dark">
                         <Card.Title>Chaotic Fractals in 3D</Card.Title>
                         <Card.Text>
@@ -125,7 +125,7 @@ function ProjectCardDeck(){
             </Card>
             <Card className="bg-dark text-white" text="black">
                 <a href="https://github.com/Michael-Naguib/"  className={"ProjectsLink"}>
-                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/octocat.png"}/>
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/Octocat.png"}/>
                     <Card.Body bg="Dark">
                         <Card.Title>And Many More</Card.Title>
                         <Card.Text>

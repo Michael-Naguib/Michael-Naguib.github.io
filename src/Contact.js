@@ -78,7 +78,7 @@ function Contact(){
     return(
         <div id="Contact">
             <UnsplashPhoto
-                imageUrl= {process.env.PUBLIC_URL+"/newman.jpg"}//'https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'
+                imageUrl= {process.env.PUBLIC_URL+"/newman.JPG"}//'https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'
                 photographerUrl="#"
                 photographer="My Friend Ryan Dondalski"
                 gradientRGBAfrom="rgba(0,0,0,1)"

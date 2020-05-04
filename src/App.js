@@ -1,5 +1,5 @@
 import React from 'react';
-
+//https://github.community/t5/GitHub-Pages/Project-page-serving-from-the-wrong-URL-SOLVED/td-p/2853 (FIXes upload bug)
 import './App.scss';
 import Splash from "./Splash.js";
 import AboutMe from "./AboutMe.js";
