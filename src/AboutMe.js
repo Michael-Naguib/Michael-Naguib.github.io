@@ -20,8 +20,8 @@ function AboutMe(){
                 gradientRGBAto="rgba(2,2,2,0.95)"
             >   <div className="AboutMe"></div>
                 <Container>
-                    <Row style={{padding:"10% 0% 10% 0%"}}>
-                        <Col xs={12}><h1 style={{color:"white"}} className="float-left" >About Me</h1></Col>
+                    <Row style={{padding:"0% 0% 10% 0%"}}>
+                        <Col xs={12}><h1 style={{color:"white",marginTop:"100px"}} className="float-left" >About Me</h1></Col>
                         <Col xs={12} md={3} style={{marginTop:"50px",overflow:"hidden"}}>
                             <Image src={process.env.PUBLIC_URL+"/AboutMePhotoFixed.jpg"} roundedCircle fluid></Image>
                         </Col>

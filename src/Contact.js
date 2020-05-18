@@ -86,8 +86,8 @@ function Contact(){
                 gradientRGBAto="rgba(0,0,0,1)"
             >
                 <Container>
-                    <Row style={{padding:"7% 0% 10% 0%"}}>
-                        <Col xs={12}><h1 style={{color:"white"}} className="float-left" > Contact </h1></Col>
+                    <Row style={{padding:"0% 0% 10% 0%"}}>
+                        <Col xs={12}><h1 style={{color:"white",marginTop:"100px" }} className="float-left"> Contact </h1></Col>
                         <Col xs={12} md={6} style={{color:"white",fontSize:"100%",paddingTop:"100px"}}>
                             Email: 1Michael.Naguib@gmail.com <br></br>
                             Cell: 919-710-9686

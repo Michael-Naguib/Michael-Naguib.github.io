@@ -7,7 +7,7 @@ import Navigation from "./Navigation.js";
 import Projects from "./Projects.js";
 import Contact from "./Contact.js";
 import Footer from "./Footer.js";
-import Carousel from "react-bootstrap/Carousel";
+
 function App() {
   return (
     <div className="App">

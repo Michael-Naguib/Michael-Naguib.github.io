@@ -152,7 +152,7 @@ function Projects(){
             >
                 <Container>
                     <Row>
-                        <Col xs={12}> <h1 className="text-left" style={{color:"White",marginTop:"50px"}}> Projects</h1></Col>
+                        <Col xs={12}> <h1 className="text-left" style={{color:"White",marginTop:"100px"}}> Projects</h1></Col>
                         <Col xs={12}>
                         <ProjectCardDeck/>
                         </Col>
