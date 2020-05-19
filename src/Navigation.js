@@ -1,7 +1,9 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
+import {Navbar,NavItem} from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
-//import { NavLink } from 'react-router-dom'; // code works without it...
+//import { NavLink,Link } from 'react-router-dom'; // code works without it... thanks https://reactjsexample.com/hash-link-scroll-functionality-for-react-router/
+import { HashLink as Link } from 'react-router-hash-link';
+import { LinkContainer } from 'react-router-bootstrap';
 
 function Navigation() {
 
@@ -9,10 +11,10 @@ function Navigation() {
         <Navbar className="sticky-top" sticky="top" bg="dark" variant="dark" style={{top:"0",position:"fixed",width:"100%"}}>
             <Navbar.Brand><Nav.Link href="/">🦔</Nav.Link></Navbar.Brand>
             <Nav className="mr-auto">
-                <Nav.Link href="/#AboutMe">About Me</Nav.Link>
-                <Nav.Link href="/#Projects">Projects</Nav.Link>
-                <Nav.Link href="/#Contact">Contact</Nav.Link>
-                <Nav.Link href="/Demos">Demos</Nav.Link>
+                <Link className={"nav-link"} to={"/#AboutMe"}> About Me</Link>
+                <Link className={"nav-link"} to={"/#Projects"}> Projects</Link>
+                <Link className={"nav-link"} to={"/#Contact"}> Contact</Link>
+                <Link className={"nav-link"} to={"/Demos"}> Demos</Link>
             </Nav>
         </Navbar>
     )

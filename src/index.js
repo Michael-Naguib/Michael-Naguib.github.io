@@ -6,7 +6,9 @@ import ParticleSimulation from "./ParticleSimulation.js";
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-
+function Error(){
+    return(<div>ERROR</div>);
+}
 //UPDATE: I wanted to make this a multipage site ... react router acomplish that ... site pages
 ReactDOM.render(
     <BrowserRouter>
