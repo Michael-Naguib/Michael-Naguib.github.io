@@ -11,7 +11,7 @@ function Media(){
     return(
         <Container>
             <Row>
-                <Col xs={6} md={4}>
+                <Col xs={6} md={4} >
                     <a href="https://www.linkedin.com/in/michael-naguib-969591170/">
                         <Image className="ContactImage" style={{height:"80px"}} src={process.env.PUBLIC_URL+"/LI-Bug.svg.original.svg"}/>
                     </a>

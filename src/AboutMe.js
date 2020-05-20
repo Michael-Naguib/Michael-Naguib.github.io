@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import React from "react";
 import './AboutMe.scss';
 import Image from "react-bootstrap/esm/Image";
-import Carousel from "react-bootstrap/Carousel";
+//import Carousel from "react-bootstrap/Carousel";
 
 function AboutMe(){
     return(
