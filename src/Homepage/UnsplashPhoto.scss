@@ -1,0 +1,64 @@
+$gradientColorHex: #282c34;
+//$imageUrl: 'https://images.unsplash.com/photo-1548983965-416c1920352e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80';
+//$imageUrl:"https://images.unsplash.com/photo-1491002052546-bf38f186af56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1083&q=80";
+.UnsplashPhoto{
+    height:auto;
+    width: 100%;
+    position: relative;
+    //background: url($imageUrl) center center no-repeat;
+    background-size: cover;
+    // will compile to .UnsplashPhoto:before // NOTE TO SELF: when copying and pasting old code from scss to react ...
+    // remember that some scss are overloaded ex rgba(#hexhere,opacity) works in scss but not in css .... but css has rgba() func with similar params
+    /*
+        &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient($gradientColorHex,rgba($gradientColorHex,0));
+        opacity: 1;
+    }
+
+    */
+
+    #endrights{
+        position:absolute;
+        bottom: 0px;
+        padding:3px;
+        right:0px;
+        color:rgba(#535353,0.9);
+    }
+
+    .UnsplashLink{
+        position:absolute;
+        bottom:0px;
+        left:0px;
+
+        background-color:black;
+        color:white;
+        text-decoration:none;
+        padding:4px 6px;
+        font-family:BlinkMacSystemFont,Helvetica, Ubuntu, Roboto, Noto, Arial, sans-serif;
+        font-size:12px;
+        font-weight:bold;
+        line-height:1.2;
+        display:inline-block;
+        border-radius:3px;
+    }
+
+    .UnsplashSpan{
+        display:inline-block;
+        padding:2px 3px;
+
+        svg{
+            height:12px;
+            width:auto;
+            position:relative;
+            vertical-align:middle;
+            top:-1px;
+            fill:white;
+        }
+    }
+}

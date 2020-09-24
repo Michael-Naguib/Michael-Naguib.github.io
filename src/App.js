@@ -1,16 +1,18 @@
 import React from 'react';
 //https://github.community/t5/GitHub-Pages/Project-page-serving-from-the-wrong-URL-SOLVED/td-p/2853 (FIXes upload bug)
 import './App.scss';
-import Splash from "./Splash.js";
-import AboutMe from "./AboutMe.js";
+import Splash from "./Homepage/Splash.js";
+import AboutMe from "./Homepage/AboutMe.js";
 import Navigation from "./Navigation.js";
-import Projects from "./Projects.js";
-import Contact from "./Contact.js";
+import Projects from "./Homepage/Projects.js";
+import Contact from "./Homepage/Contact.js";
 import Footer from "./Footer.js";
+import PrivacyNotice from "./Homepage/PrivacyNotice.js";
 
 function App() {
   return (
     <div className="App" id={"AppTop"}>
+        { !window.policyAccepted ? <PrivacyNotice/> : undefined}
       <Navigation/>
       <Splash smallMsg="M"
               bigMsg="Michael"
@@ -22,6 +24,7 @@ function App() {
       <Projects/>
       <Contact/>
       <Footer/>
+
     </div>
   );
 }

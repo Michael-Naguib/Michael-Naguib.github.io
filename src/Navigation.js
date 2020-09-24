@@ -8,14 +8,17 @@ import { HashLink as Link } from 'react-router-hash-link';
 function Navigation() {
     //Hedgehog home link will not work in dev ... will work in production ...
     return(
-        <Navbar className="sticky-top" sticky="top" bg="dark" variant="dark" style={{top:"0",position:"fixed",width:"100%"}}>
+        <Navbar expand="md" className="sticky-top" sticky="top" bg="dark" variant="dark" style={{top:"0",position:"fixed",width:"100%"}} >
             <Navbar.Brand><Link className={"nav-link"} to={"/"}> 🦔</Link></Navbar.Brand>
-            <Nav className="mr-auto">
-                <Link className={"nav-link"} to={"/#AboutMe"}> About Me</Link>
-                <Link className={"nav-link"} to={"/#Projects"}> Projects</Link>
-                <Link className={"nav-link"} to={"/#Contact"}> Contact</Link>
-                <Link className={"nav-link"} to={"/Demos"}> Demos</Link>
-            </Nav>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                    <Link className={"nav-link"} to={"/#AboutMe"}> About Me</Link>
+                    <Link className={"nav-link"} to={"/#Projects"}> Projects</Link>
+                    <Link className={"nav-link"} to={"/#Contact"}> Contact</Link>
+                    <Link className={"nav-link"} to={"/Demos"}> Demos</Link>
+                </Nav>
+            </Navbar.Collapse>
         </Navbar>
     )
 
