@@ -1,6 +1,6 @@
 import React from 'react';
 import * as THREE from 'three';
-import Navigation from "../Navigation";
+import Navigation from "../Components/Navigation";
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
 class Simulation extends React.Component{

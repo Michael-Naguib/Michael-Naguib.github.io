@@ -1,14 +1,15 @@
 import React from 'react';
 import {Navbar} from 'react-bootstrap';//,NavItem
 import Nav from 'react-bootstrap/Nav';
-//import { NavLink,Link } from 'react-router-dom'; // code works without it... thanks https://reactjsexample.com/hash-link-scroll-functionality-for-react-router/
 import { HashLink as Link } from 'react-router-hash-link';
 //import { LinkContainer } from 'react-router-bootstrap';
+//import { NavLink,Link } from 'react-router-dom'; // code works without it... thanks https://reactjsexample.com/hash-link-scroll-functionality-for-react-router/
 
-function Navigation() {
+function Navigation(props) {
+
     //Hedgehog home link will not work in dev ... will work in production ...
     return(
-        <Navbar expand="md" className="sticky-top" sticky="top" bg="dark" variant="dark" style={{top:"0",position:"fixed",width:"100%"}} >
+        <Navbar expand="md" className="sticky-top" sticky="top" bg={props.darkmode} variant={props.darkmode} style={{top:"0",position:"fixed",width:"100%"}} >
             <Navbar.Brand><Link className={"nav-link"} to={"/"}> 🦔</Link></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -17,6 +18,7 @@ function Navigation() {
                     <Link className={"nav-link"} to={"/#Projects"}> Projects</Link>
                     <Link className={"nav-link"} to={"/#Contact"}> Contact</Link>
                     <Link className={"nav-link"} to={"/Demos"}> Demos</Link>
+                    <Link className={"nav-link"} to={"/Articles"}> Articles</Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

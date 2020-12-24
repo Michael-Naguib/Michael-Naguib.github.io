@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from "../Navigation";
+import Navigation from "../Components/Navigation";
 import {Col, Container, Jumbotron, Row, Image} from "react-bootstrap";
 import MathJax from "react-mathjax";
 import "./FallingCubes.scss";
