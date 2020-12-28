@@ -2,6 +2,7 @@ import Card from "react-bootstrap/Card";
 import {HashLink as Link} from "react-router-hash-link";
 import MathJax from "react-mathjax";
 import React from "react";
+import {getDisplayMode} from "../Util/util";
 const renderEqn = `
 \\mathit{L_{o}}(\\boldsymbol{x},\\omega _{o},\\lambda,t)
 =
@@ -14,11 +15,13 @@ f_{r}(\\boldsymbol{x},\\omega _{i},w_{o},\\lambda,t)
 d\\omega_{i}
 `;
 function FallingCubesCard(){
+    const dark= getDisplayMode()=="dark";
+    const fontColor= dark?"white":"black";
     return(
-        <Card className="bg-dark text-white" text="black">
+        <Card className={dark?"bg-dark text-white":"bg-light text-black"} text={fontColor}>
             <Link to={"/FallingCubes#FallingCubesTop"}  className={"ProjectsLink"}>
                 <Card.Img variant="top" src={process.env.PUBLIC_URL + "/SlowedFallingCubesCropped.gif"}/>
-                <Card.Body bg="Dark">
+                <Card.Body bg={dark?"Dark":"Light"}>
                     <Card.Title>Falling Cubes</Card.Title>
                     <Card.Text>
                         Simplicity, Elegance , 🔥 GPU's .... are all found in the Rendering Equation!

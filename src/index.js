@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import LandingPage from './LandingPage/LandingPage';
@@ -7,39 +7,72 @@ import PrivatePolicy from './LandingPage/PrivatePolicy.js';
 import FallingCubes from './FallingCubes/FallingCubes.js';
 import ArticlesPage from './Articles/ArticlesPage';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch ,useLocation } from 'react-router-dom';
 import Error from './Components/Error.js';
 import {$,jQuery} from 'jquery';
+import data from './Articles/ArticleData.js';
+
 // export for others scripts to use
 window.$ = $;
 window.jQuery = jQuery;
 
-//Create a way for components to pass data ...
+//Website Wide Settings & Usefull data passing object
 window.MichaelNaguibSiteData = {
     displayMode:"auto",// Determines whether components using this use lightmode or darkmode ... "light","dark", "auto"
+    svgAnimate:false,
+    privatePolicyAccepted:false,
+    GA_MEASUREMENT_ID:'UA-165348245-1',
+    gtag:()=>{console.log("NO FUNCTION SPECIFIED FOR GTAG")}
 }
 
+// Responsible for updating the google tag for SPA
+/*browserHistory.listen( location =>  {
 
-//UPDATE: I wanted to make this a multipage site ... react router acomplish that ... site pages
+});*/
+
+function LocationTracker() {
+    const location = useLocation();
+    useEffect(() => {
+        const currentPath = location.pathname;
+        // If the Policy is accepted then this will be defined
+        if( window.MichaelNaguibSiteData.privatePolicyAccepted){
+            console.log("Updating Location to "+currentPath);
+            window.MichaelNaguibSiteData.gtag('config', window.MichaelNaguibSiteData.GA_MEASUREMENT_ID, {'page_path': currentPath});
+        }
+
+    }, [location]);
+    return (
+        <div style={{display:"hidden"}}></div>
+    );
+}
+
+//React Browser Router: Preserves page history & routes the site as a dynamic single site aplication
 ReactDOM.render(
-    <BrowserRouter>
-        <Switch>
-            <Route path="/FallingCubes" component={FallingCubes}/>
-            <Route path="/Demos" component={ParticleSimulation}/>
-            <Route path="/PrivatePolicy" component={PrivatePolicy}/>
-            <Route path="/Articles" component={ArticlesPage}/>
-            <Route exact path="/" component={LandingPage} exact/>
-            <Route component={Error}/>
-        </Switch>
-    </BrowserRouter>,
+        <BrowserRouter>
+            <Switch>
+                <Route exact path="/FallingCubes" component={FallingCubes}/>
+                <Route exact path="/Demos" component={ParticleSimulation}/>
+                <Route exact path="/PrivatePolicy" component={PrivatePolicy}/>
+                <Route exact path="/Articles" component={ArticlesPage}/>
+                <Route exact path="/" component={LandingPage}/>
+                {// Routes for the articles...
+                    data.map((article)=><Route exact key={article.title} path={article.pLink} component={article.component}/>)
+                }
+                <Route component={Error}/>
+            </Switch>
+            <LocationTracker/>
+        </BrowserRouter>
+    ,
   document.getElementById('root')
-);// ORDERING of the routes matters ... because of the pattern matching algorithm it uses...
+);
 
 /*
-*   <React.StrictMode>
+OLD CODE:
+<React.StrictMode>
     <LandingPage />
-  </React.StrictMode>,
-* */
+ </React.StrictMode>,
+
+*/
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

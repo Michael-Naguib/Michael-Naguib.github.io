@@ -129,7 +129,11 @@ function ParticleSimulation() {
             <Navigation/>
             <Simulation/>
             </div>: <div className="ParticleSimulation">
-            Cool Code Comming Check back later!
+            <Navigation/>
+            <div style={{marginTop:"72px"}}>
+                <h1>Cool Code Coming Check back later!</h1>
+                <p> This page will eventually have JS implemented versions of some of my more visual-oritented projects</p>
+            </div>
 
         </div> );
 }

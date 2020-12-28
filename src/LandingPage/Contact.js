@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col";
 //import Form from "react-bootstrap/Form";
 //import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
+import {getDisplayMode} from "../Util/util";
 
 function Media(){
     return(
@@ -75,24 +76,39 @@ function MyForm(){
 */
 
 function Contact(){
+    const dark= getDisplayMode()=="dark";
+    const fontColor= dark?"white":"black";
     return(
         <div id="Contact">
             <UnsplashPhoto
-                imageUrl= {process.env.PUBLIC_URL+"/newman.JPG"}//'https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'
-                photographerUrl="#"
-                photographer="My Friend Ryan Dondalski"
-                gradientRGBAfrom="rgba(0,0,0,1)"
+                imageUrl= {
+                    dark?
+                    process.env.PUBLIC_URL+"/newman.JPG":
+                    "https://images.unsplash.com/photo-1532637644947-13094c2745f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                }//'https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'
+                photographerUrl={
+                    dark?"#":""
+                }
+                photographer={
+                    dark?"My Friend Ryan Dondalski":""
+                }
+                gradientRGBAfrom={dark?"rgba(0,0,0,1)":"rgba(255,255,255,0.7)"}
                 gradientRGBAmid="rgba(0,0,0,0.0)"
                 gradientRGBAto="rgba(0,0,0,1)"
             >
                 <Container>
                     <Row style={{padding:"0% 0% 10% 0%"}}>
-                        <Col xs={12}><h1 style={{color:"white",marginTop:"100px" }} className="float-left"> Contact </h1></Col>
-                        <Col xs={12} md={6} style={{color:"white",fontSize:"100%",paddingTop:"100px"}}>
-                            Email: 1Michael.Naguib@gmail.com <br></br>
-                            Cell: 919-710-9686
+                        <Col xs={12}><h1 style={{color:fontColor,marginTop:"100px" }} className="float-left"> Contact </h1></Col>
+                        <Col xs={12} md={6} style={{color:fontColor,fontSize:"100%",paddingTop:"100px"}}>
+                           <h2>
+                               Email: 1Michael.Naguib@gmail.com <br></br>
+                               <iframe style={{paddingTop:"20px"}}
+                                   src="https://docs.google.com/forms/d/e/1FAIpQLScM_W7myy3rCBQEVk06pnWOU6WGQF9--ugdYgAhG50YFUxtHg/viewform?embedded=true"
+                                   width="500" height="673" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
+                               </iframe>
+                           </h2>
                         </Col>
-                        <Col className="text-left" xs={12} md={6} style={{borderRadius:"0.25em",color:"white",paddingTop:"70px"}}>
+                        <Col className="text-left" xs={12} md={6} style={{borderRadius:"0.25em",color:fontColor,paddingTop:"70px"}}>
                             <Media/>
                         </Col>
                     </Row>

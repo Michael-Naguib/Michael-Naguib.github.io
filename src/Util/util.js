@@ -1,5 +1,3 @@
-
-
 export function getDisplayMode(){
     /*Description: returns whether or not components should use lightmode or darkmode
                    based on window.MichaelNaguibSiteData.displayMode = "auto","light","dark"
