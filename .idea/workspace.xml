@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="180fda36-59df-4779-96fa-7b25710aa24f" name="Default Changelist" comment="Commiting old code; Changed the navbar to become a hamburger menue at smaller resolutions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Articles/ArticleData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Articles/ArticleData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Articles/ArticlesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Articles/ArticlesPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FallingCubes/FallingCubes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FallingCubes/FallingCubes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FallingCubes/FallingCubesCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FallingCubes/FallingCubesCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LandingPage/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/PrivacyNotice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LandingPage/PrivacyNotice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/PrivatePolicy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LandingPage/PrivatePolicy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/ProjectCards/GeneticCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LandingPage/ProjectCards/GeneticCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/ProjectCards/GithubCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LandingPage/ProjectCards/GithubCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/ProjectCards/ParticleSimCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LandingPage/ProjectCards/ParticleSimCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Util/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="180fda36-59df-4779-96fa-7b25710aa24f" name="Default Changelist" comment="Commiting old code; Changed the navbar to become a hamburger menue at smaller resolutions" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -365,12 +350,12 @@
       <workItem from="1608959297058" duration="5360000" />
       <workItem from="1609145705941" duration="2222000" />
       <workItem from="1609194652158" duration="128000" />
-      <workItem from="1609224520413" duration="4091000" />
+      <workItem from="1609224520413" duration="4690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184234000" />
+    <option name="totallyTimeSpent" value="184833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
