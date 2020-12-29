@@ -8,10 +8,11 @@ import {getDisplayMode} from "../../Util/util";
 export default function GeneticCard(props){
     const dark= getDisplayMode()=="dark";
     const fontColor= dark?"white":"black";
+    //TODO: this specific image is causing a rather large slowdown!
     return(
     <Card className={dark?"bg-dark text-white":"bg-light text-black"} text={fontColor}>
         <a href="https://github.com/Michael-Naguib/Genetic-Algorithm"  className={"ProjectsLink"}>
-            <Card.Img variant="top" src={process.env.PUBLIC_URL + "/exampleGA.gif"}/>
+            <Card.Img variant="top" src={process.env.PUBLIC_URL + "/exampleGA.webp"}/>
             <Card.Body bg={dark?"Dark":"Light"}>
                 <Card.Title>Genetic Algorithm (on Words)</Card.Title>
                 <Card.Text>

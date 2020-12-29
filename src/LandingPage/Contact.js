@@ -100,13 +100,13 @@ function Contact(){
                     <Row style={{padding:"0% 0% 10% 0%"}}>
                         <Col xs={12}><h1 style={{color:fontColor,marginTop:"100px" }} className="float-left"> Contact </h1></Col>
                         <Col xs={12} md={6} style={{color:fontColor,fontSize:"100%",paddingTop:"100px"}}>
-                           <h2>
+                           <h3>
                                Email: 1Michael.Naguib@gmail.com <br></br>
-                               <iframe style={{paddingTop:"20px"}}
-                                   src="https://docs.google.com/forms/d/e/1FAIpQLScM_W7myy3rCBQEVk06pnWOU6WGQF9--ugdYgAhG50YFUxtHg/viewform?embedded=true"
-                                   width="500" height="673" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
-                               </iframe>
-                           </h2>
+                           </h3>
+                            <iframe style={{paddingTop:"20px"}}
+                                    src="https://docs.google.com/forms/d/e/1FAIpQLScM_W7myy3rCBQEVk06pnWOU6WGQF9--ugdYgAhG50YFUxtHg/viewform?embedded=true"
+                                    width="100%" height="673" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
+                            </iframe>
                         </Col>
                         <Col className="text-left" xs={12} md={6} style={{borderRadius:"0.25em",color:fontColor,paddingTop:"70px"}}>
                             <Media/>

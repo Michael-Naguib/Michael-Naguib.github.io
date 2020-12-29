@@ -75,19 +75,19 @@ class ArticlesSearch extends React.Component{
             <Form style={{paddingBottom: "30px"}}>
                 <Form.Row>
                     <Col md>
-                        <Form.Control type="text" placeholder="search"  defaultValue={""} onChange={this.handleChange.bind(this)}/>
+                        <Form.Control type="text" placeholder="Search (COMMING SOON)"  defaultValue={""} onChange={this.handleChange.bind(this)}/>
                     </Col>
                 </Form.Row>
             </Form>
             <MathJax.Provider >
 
-            <ul>
+            <Container  style={{minHeight:"100vh"}}>
                 {
                     filteredArticles.length>0 ? filteredArticles.map((article) =>
                     <ArticleCard article={article}/>
                     ): <h3 key={"NOARTICLES"}> No Articles meet the search criteria "{this.state.searchParam}"</h3>
                 }
-            </ul>
+            </Container>
             </MathJax.Provider>
             </div>)
     }

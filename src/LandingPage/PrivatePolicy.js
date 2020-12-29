@@ -1,8 +1,10 @@
 import React from "react";
+import Navigation from "../Components/Navigation";
 
 function PrivatePolicy(){
     return(        <div>
-        <h1>Privacy Policy for Michael Naguib</h1>
+        <Navigation/>
+        <h1 style={{marginTop:"72px"}}>Privacy Policy for Michael Naguib</h1>
 
         <p>At Michael Naguib, accessible from michael-naguib.github.io, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Michael Naguib and how we use it.</p>
 

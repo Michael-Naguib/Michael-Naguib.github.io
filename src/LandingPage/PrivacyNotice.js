@@ -10,7 +10,7 @@ function PrivacyNotice(){
             <Alert.Heading>Privacy Notice</Alert.Heading>
             <p>
                 By Clicking Accept you agree to the cookie and <Link to={"/PrivatePolicy"}>private policy </Link>of this site.
-                (Basically this lets me know how many people view my site)
+                (Basically this lets me know how many people view my site )
 
             </p>
 
@@ -28,8 +28,8 @@ function PrivacyNotice(){
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){window.dataLayer.push(arguments);}
                         gtag('js', new Date());
-                        gtag('config',  window.MichaelNaguibSiteData.privatePolicyAccepted.GA_MEASUREMENT_ID );
-                        window.MichaelNaguibSiteData.privatePolicyAccepted.gtag=gtag;
+                        gtag('config',  window.MichaelNaguibSiteData.GA_MEASUREMENT_ID );
+                        window.MichaelNaguibSiteData.gtag=gtag;
                     }, 1);
                     console.log("exitedFunc");
                     }} variant="outline-success">

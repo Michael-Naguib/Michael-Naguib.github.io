@@ -11,7 +11,7 @@ export default function ParticleSimCard(props){
     return(
     <Card className={dark?"bg-dark text-white":"bg-light text-black"} text={fontColor}>
         <a href="https://github.com/Michael-Naguib/BoidsSimulation"  className={"ProjectsLink"}>
-            <Card.Img variant="top" src={process.env.PUBLIC_URL + "/BoidsSimGif.gif"}/>
+            <Card.Img variant="top" src={process.env.PUBLIC_URL + "/BoidsSimGif.webp"}/>
             <Card.Body bg={dark?"Dark":"Light"}>
                 <Card.Title>3k Particle Simulation</Card.Title>
                 <Card.Text>

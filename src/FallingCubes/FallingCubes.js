@@ -46,7 +46,7 @@ function FallingCubes(props){
                         </par>
                     </Col>
                     <Col lg={4}>
-                        <Image src={process.env.PUBLIC_URL+"/FCubesCropHighRes.gif"}  />
+                        <Image src={process.env.PUBLIC_URL+"/FCubesCropHighRes.webp"}  />
 
                     </Col>
                     <Col lg={8}>

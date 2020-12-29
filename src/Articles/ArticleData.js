@@ -22,7 +22,7 @@ const data = [
         keywords:"testing,test",
         pLink:"/Articles/test",
         imgSrc:"https://images.unsplash.com/photo-1551207046-b56c35384080?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
-        component: (props)=><div>TEST PAGE</div>
+        component: (props)=><div>TEST PAGE<h1 style={{color:"red"}}>EXAMPLE ARTICLE... NOT REAL</h1></div>
     },
     article1Data,
     {
@@ -32,7 +32,7 @@ const data = [
         keywords:"Algorithms,Datastructures,Merge Sort, Sorting",
         pLink:"/Articles/MergeSort-Algorithm",
         imgSrc:"https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
-        component: (props)=><div>Merge Sort</div>
+        component: (props)=><div>Merge Sort<h1 style={{color:"red"}}>EXAMPLE ARTICLE... NOT REAL</h1></div>
     },
     {
         title:"Quick Sort Algorithm",
@@ -41,7 +41,7 @@ const data = [
         keywords:"Algorithms,Datastructures,Quick Sort, Sorting",
         pLink:"/Articles/QuickSort-Algorithm",
         imgSrc:"https://images.unsplash.com/photo-1484662020986-75935d2ebc66?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=80",
-        component: (props)=><div>QuickSort</div>
+        component: (props)=><div>QuickSort<h1 style={{color:"red"}}>EXAMPLE ARTICLE... NOT REAL</h1></div>
     },
     {
         title:"Pi vs Tau",
@@ -59,7 +59,7 @@ const data = [
         keywords:"NN,ANN,Neural Networks,AI,ML,Machine Learning,Linear Algebra, Eigen Values",
         pLink:"/Articles/Neural-Networks-Eigen-Value-Decomposition",
         imgSrc:"https://images.unsplash.com/photo-1542382257-80dedb725088?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
-        component: (props)=><div>Neural Networks</div>
+        component: (props)=><div>Neural Networks <h1 style={{color:"red"}}>EXAMPLE ARTICLE... NOT REAL</h1></div>
     },
     {
         title:"Cauchy's Integral Formula",
@@ -68,9 +68,9 @@ const data = [
         keywords:"Cauchy,Integral,integration,formula,mathematics,math",
         pLink:"/Articles/Cauchy-Integral-Formula",//Tim Scalzo 's Image via unsplash
         imgSrc:"https://images.unsplash.com/photo-1593792287216-63d6852cc3a8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
-        component: (props)=><MathJax.Provider ><MathJax.Node  formula={`f(a) = \\frac{1}{2\\pi i} \\oint\\frac{f(z)}{z-a}dz`} /></MathJax.Provider>
+        component: (props)=><MathJax.Provider ><h1 style={{color:"red"}}>EXAMPLE ARTICLE... NOT REAL</h1><MathJax.Node  formula={`f(a) = \\frac{1}{2\\pi i} \\oint\\frac{f(z)}{z-a}dz`} /></MathJax.Provider>
     }
 
 
 ];
-export default data;
+export default [];//data;//[];//TODO: replace with `data`

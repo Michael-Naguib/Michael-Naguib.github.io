@@ -6,7 +6,8 @@ export function getDisplayMode(){
     return: "light" if lightmode "dark if darkmode"
     */
     if (window.MichaelNaguibSiteData.displayMode=="auto"){
-        var useDarkmode =  (new Date()).getHours() >= 18;//6pm  sunset ish ... may vary depending on time during year
+        var hour = (new Date()).getHours()
+        var useDarkmode =   hour >= 18 || hour<= 7;//6pm  sunset ish ... 7am may vary depending on time during year
         return useDarkmode?"dark":"light"
     }
     else{

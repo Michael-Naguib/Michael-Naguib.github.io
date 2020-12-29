@@ -22,7 +22,7 @@ window.MichaelNaguibSiteData = {
     svgAnimate:false,
     privatePolicyAccepted:false,
     GA_MEASUREMENT_ID:'UA-165348245-1',
-    gtag:()=>{console.log("NO FUNCTION SPECIFIED FOR GTAG")}
+    gtag: ()=>{console.log("GTagFuncNotSpecified")}
 }
 
 // Responsible for updating the google tag for SPA
