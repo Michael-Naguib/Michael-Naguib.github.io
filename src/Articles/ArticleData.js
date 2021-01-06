@@ -73,4 +73,4 @@ const data = [
 
 
 ];
-export default [];//data;//[];//TODO: replace with `data`
+export default data;//[];//TODO: replace with `data`

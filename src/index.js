@@ -1,16 +1,28 @@
-import React,{useEffect} from 'react';
+import React,{useEffect, Suspense, lazy} from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import LandingPage from './LandingPage/LandingPage';
-import ParticleSimulation from "./Demos/ParticleSimulation.js";
-import PrivatePolicy from './LandingPage/PrivatePolicy.js';
-import FallingCubes from './FallingCubes/FallingCubes.js';
-import ArticlesPage from './Articles/ArticlesPage';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route, Switch ,useLocation } from 'react-router-dom';
 import Error from './Components/Error.js';
 import {$,jQuery} from 'jquery';
 import data from './Articles/ArticleData.js';
+
+/*
+// Implement Lazy Loading for React Router
+const LandingPage = lazy(() => import('./LandingPage/LandingPage'));
+const ParticleSimulation = lazy(() => import("./Demos/ParticleSimulation.js"));
+const PrivatePolicy = lazy(()=>import('./LandingPage/PrivatePolicy.js'));
+const FallingCubes = lazy(()=>import('./FallingCubes/FallingCubes.js'));
+const ArticlesPage = lazy(()=>import('./Articles/ArticlesPage'));
+// YIKES that little overhead made it much worse!!!
+*/
+import LandingPage from './LandingPage/LandingPage';
+import ParticleSimulation from "./Demos/ParticleSimulation.js";
+import PrivatePolicy from './LandingPage/PrivatePolicy.js';
+import FallingCubes from './FallingCubes/FallingCubes.js';
+import ArticlesPage from './Articles/ArticlesPage';
+
+
 
 // export for others scripts to use
 window.$ = $;
@@ -30,7 +42,7 @@ window.MichaelNaguibSiteData = {
 
 });*/
 
-function LocationTracker() {
+function GoogleAnalyitics() {
     const location = useLocation();
     useEffect(() => {
         const currentPath = location.pathname;
@@ -60,7 +72,7 @@ ReactDOM.render(
                 }
                 <Route component={Error}/>
             </Switch>
-            <LocationTracker/>
+            <GoogleAnalyitics/>
         </BrowserRouter>
     ,
   document.getElementById('root')
