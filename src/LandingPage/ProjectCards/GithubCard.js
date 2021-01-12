@@ -9,7 +9,7 @@ export default function GithubCard(props){
     const fontColor= dark?"white":"black";
     return(
         <Card className={dark?"bg-dark text-white":"bg-light text-black"} text={fontColor}>
-            <Link to={"https://github.com/Michael-Naguib/"}  className={"ProjectsLink"}>
+            <a href={"https://github.com/Michael-Naguib/"}  className={"ProjectsLink"}>
                 <Card.Img variant="top" src={process.env.PUBLIC_URL + "/Octocat.svg"}/>
                 <Card.Body bg={dark?"Dark":"Light"}>
                     <Card.Title>And Many More</Card.Title>
@@ -18,7 +18,7 @@ export default function GithubCard(props){
                         I am working on until it has reached some level of maturity. These are the tip of the iceberg!
                     </Card.Text>
                 </Card.Body>
-            </Link>
+            </a>
         </Card>
     );
 }
