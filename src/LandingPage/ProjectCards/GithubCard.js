@@ -10,7 +10,7 @@ export default function GithubCard(props){
     return(
         <Card className={dark?"bg-dark text-white":"bg-light text-black"} text={fontColor}>
             <Link to={"https://github.com/Michael-Naguib/"}  className={"ProjectsLink"}>
-                <Card.Img variant="top" src={process.env.PUBLIC_URL + "/Octocat.webp"}/>
+                <Card.Img variant="top" src={process.env.PUBLIC_URL + "/Octocat.svg"}/>
                 <Card.Body bg={dark?"Dark":"Light"}>
                     <Card.Title>And Many More</Card.Title>
                     <Card.Text>
