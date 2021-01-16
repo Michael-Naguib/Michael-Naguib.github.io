@@ -10,7 +10,7 @@ export default function ConwaysCard(props){
     return(
         <Card className={dark?"bg-dark text-white":"bg-light text-black"} text={fontColor}>
             <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"  className={"ProjectsLink"}>
-                <Card.Img variant="top" src={process.env.PUBLIC_URL + "/CatepillarRave.gif"}/>
+                <video className={"card-img-top"} src={process.env.PUBLIC_URL + "/CatepillarRave.mp4"} autoPlay="true" loop muted></video>
                 <Card.Body bg={dark?"Dark":"Light"}>
                     <Card.Title>Catepillar Rave</Card.Title>
                     <Card.Text>

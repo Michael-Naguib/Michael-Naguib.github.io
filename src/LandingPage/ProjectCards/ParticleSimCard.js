@@ -4,14 +4,15 @@ import CardColumns from "react-bootstrap/CardColumns";
 import React from "react";
 import {getDisplayMode} from "../../Util/util";
 const bigO = `\\mathcal{O}(n\\log{}n)`;
-
+//old code ... video more efficient
+//<Card.Img variant="top" src={process.env.PUBLIC_URL + "/BoidsSimGif.webp"}/>
 export default function ParticleSimCard(props){
     const dark= getDisplayMode()=="dark";
     const fontColor= dark?"white":"black";
     return(
     <Card className={dark?"bg-dark text-white":"bg-light text-black"} text={fontColor}>
         <a href="https://github.com/Michael-Naguib/BoidsSimulation"  className={"ProjectsLink"}>
-            <Card.Img variant="top" src={process.env.PUBLIC_URL + "/BoidsSimGif.webp"}/>
+            <video className={"card-img-top"} src={process.env.PUBLIC_URL + "/BoidsSimGif.mp4"} autoPlay="true" loop muted></video>
             <Card.Body bg={dark?"Dark":"Light"}>
                 <Card.Title>3k Particle Simulation</Card.Title>
                 <Card.Text>

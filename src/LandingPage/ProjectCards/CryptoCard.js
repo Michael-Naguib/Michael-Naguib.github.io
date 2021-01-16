@@ -10,7 +10,7 @@ export default function CryptoCard(props){
     return(
         <Card className={dark?"bg-dark text-white":"bg-light text-black"} text={fontColor}>
             <a href="https://github.com/Michael-Naguib/Simple-Cryptography"  className={"ProjectsLink"}>
-                <Card.Img variant="top" src={process.env.PUBLIC_URL + "/tenor.gif"}/>
+                <video className={"card-img-top"} src={process.env.PUBLIC_URL + "/tenor.mp4"} autoPlay="true" loop muted></video>
                 <Card.Body bg={dark?"Dark":"Light"}>
                     <Card.Title>Cryptography</Card.Title>
                     <Card.Text>

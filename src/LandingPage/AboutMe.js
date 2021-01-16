@@ -28,7 +28,7 @@ function AboutMe(){
                     <Row style={{padding:"0% 0% 10% 0%"}}>
                         <Col xs={12}><h1 style={{color:fontColor,marginTop:"100px"}} className="float-left" >About Me</h1></Col>
                         <Col xs={12} md={3} style={{marginTop:"50px",overflow:"hidden"}}>
-                            <Image src={process.env.PUBLIC_URL+"/AboutMePhotoFixed.jpg"} roundedCircle fluid></Image>
+                            <Image src={process.env.PUBLIC_URL+"/AboutMePhotoFixed.webp"} roundedCircle fluid></Image>
                         </Col>
                         <Col xs={12} md={8} style={{marginTop:"50px",color:fontColor,fontSize:"1.9em"}}>
                              Hi, my name is Michael Naguib. I am a college student pursuing a BS in Computer Science and Mathematics.

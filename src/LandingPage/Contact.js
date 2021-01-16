@@ -24,11 +24,11 @@ function Media(){
                 </Col>
                 <Col xs={6} md={4} >
                     <a href="https://github.com/Michael-Naguib">
-                        <Image className="ContactImage" style={{height:"90px"}}src={process.env.PUBLIC_URL+"/Octocat.png"}/>
+                        <Image className="ContactImage" style={{height:"90px"}}src={process.env.PUBLIC_URL+"/Octocat.svg"}/>
                     </a>
                 </Col>
                 <Col xs={6} md={4} >
-                    <a href={process.env.PUBLIC_URL+"/MichaelNaguibResume5-3-2020.pdf"} download>
+                    <a href={process.env.PUBLIC_URL+"/Michael-Naguib-Resume-1-11-2021.pdf"} download>
                         <Image className="ContactImage" style={{height:"90px"}}src={process.env.PUBLIC_URL+"/icons8-document.svg"}/>
                     </a>
                 </Col>

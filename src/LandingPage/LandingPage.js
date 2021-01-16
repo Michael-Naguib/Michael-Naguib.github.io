@@ -18,8 +18,8 @@ function LandingPage() {
       <Navigation />
       <Splash smallMsg="M"
               bigMsg="Michael"
-              smallVidUrl={process.env.PUBLIC_URL+"/me.mp4"}
-              bigVidUrl={process.env.PUBLIC_URL+"/splash-video-3.mp4"}
+              smallVidUrl={process.env.PUBLIC_URL+"/splash-video-3-small-mobile.mp4"}
+              bigVidUrl={process.env.PUBLIC_URL+"/splash-video-3-small.mp4"}
               maskColor={ getDisplayMode()=="light"? "rgb(255,255,255)":"rgb(4,7,25)" }
       />
       <AboutMe/>

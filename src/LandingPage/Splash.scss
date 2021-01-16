@@ -87,7 +87,7 @@ html {
 	//define the font size (very large but relativly responsive hence em)
 	font-size:1300%;
 	// set the font and its backup
-	font-family: "Brush Script MT","Century Gothic",'Open Sans','Papyrus', sans-serif;
+	font-family: "Brush Script MT","Brush Script Michael";//,"Century Gothic",'Open Sans','Papyrus', sans-serif;
 	
 	//height:100%;
 	//width: 100%;
@@ -121,12 +121,14 @@ html {
 	
 	//preserve aspect ratio and become full size pozible clipping height to preserve ratio
 	//for some reason this is buggy~ if the page loads small screensize then is resized larger the overlay does not correct~ opposite does not hold...
-	width:100% !important; 
+	width:100% !important;
 	height:auto !important;
 	//margin:auto
 	//Center the video at the center of .splash-video so that it is underneath the transparent text
 	//left: 50%;
     position: absolute;
+	//padding-top: 72px;
+	margin-top:72px;
     //top: 40%;
     //transform: translate(-50%, -50%); !!! this is done in index.jsx as a paralax effect!!!! 
 	//Different settings in order to make sure the video does not go past the text may be needed: index.jsx splashDoParalax paralaxRate

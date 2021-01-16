@@ -20,7 +20,7 @@ function FallingCubesCard(){
     return(
         <Card className={dark?"bg-dark text-white":"bg-light text-black"} text={fontColor}>
             <Link to={"/FallingCubes#FallingCubesTop"}  className={"ProjectsLink"}>
-                <Card.Img variant="top" src={process.env.PUBLIC_URL + "/SlowedFallingCubesCropped.webp"}/>
+                <video className={"card-img-top"} src={process.env.PUBLIC_URL + "/SlowedFallingCubesCropped.mp4"} autoPlay="true" loop muted></video>
                 <Card.Body bg={dark?"Dark":"Light"}>
                     <Card.Title>Falling Cubes</Card.Title>
                     <Card.Text>
