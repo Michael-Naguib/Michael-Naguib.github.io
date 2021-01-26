@@ -26,7 +26,7 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "siteaudit": "lighthouse --view localhost:3000",
-    "deploy": "gh-pages -d build -b master --git git",
+    "deploy": "echo 'gh-pages -d build -b master --git git'",
     "HELP": "echo ' 2020 Update:(GH-Pages not work... cause hek... manually build & deploy) ignore the rest-->From experiance ... Run the following from cmd ... bc permissions issue: gh-pages -d build -b master'",
     "build": "react-scripts build",
     "test": "react-scripts test",
