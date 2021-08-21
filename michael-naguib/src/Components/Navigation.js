@@ -1,10 +1,10 @@
 import React from 'react';
 import {Navbar} from 'react-bootstrap';//,NavItem
 import Nav from 'react-bootstrap/Nav';
-import { HashLink as Link } from 'react-router-hash-link';
+//import { HashLink as Link } from 'react-router-hash-link';
 //import { LinkContainer } from 'react-router-bootstrap';
 //import { NavLink,Link } from 'react-router-dom'; // code works without it... thanks https://reactjsexample.com/hash-link-scroll-functionality-for-react-router/
-
+import { Link } from "gatsby"
 import {getDisplayMode} from "../Util/util.js";
 function Navigation(props) {
 

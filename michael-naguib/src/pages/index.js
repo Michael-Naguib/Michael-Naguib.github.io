@@ -1,11 +1,13 @@
 import React from "react"
-import Navigation from "../Components/Navigation.js";
+import {Container} from "react-bootstrap";
 
-export default function Test() {
+export default function MainPage() {
   return(
       <div>
-        <Navigation/>
 
+          <Container>
+              Hello World
+          </Container>
       </div>
   )
 }
