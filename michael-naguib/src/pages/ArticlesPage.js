@@ -3,12 +3,11 @@ import Navigation from "../Components/Navigation.js";
 import Footer from "../Components/Footer.js";
 import {Form, Button, Col, Container} from 'react-bootstrap';
 import MathJax from "react-mathjax";
-import data from './ArticleData.js';
+import data from '../Util/ArticleData.js';
 import { HashLink as Link } from 'react-router-hash-link';
 import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
 import {getDisplayMode} from "../Util/util";
-
 
 function ArticleCard(props){
     var article = props.article;

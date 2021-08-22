@@ -1,6 +1,6 @@
 import {Container, Jumbotron} from "react-bootstrap";
 import React from "react";
-import Navigation from "../../Components/Navigation";
+import Navigation from "../Navigation";
 import Row from "react-bootstrap/Row";
 import {getDisplayMode} from "../../Util/util";
 import Col from "react-bootstrap/Col";

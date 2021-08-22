@@ -1,6 +1,6 @@
 import MathJax from "react-mathjax";
 import React from "react";
-import article1Data from "./Articles/Article1.js";
+import article1Data from "../Components/Articles/Article1.js";
 // Coursesy of github: https://stackoverflow.com/questions/11591854/format-date-to-mm-dd-yyyy-in-javascript
 //Modified for use
 function getFormattedDate(date) {
@@ -16,7 +16,7 @@ function getFormattedDate(date) {
 * */
 const data = [
     {
-        title:"Test",
+        title:"Articles",
         date:getFormattedDate(new Date()),
         caption:"This is an example of an article",
         keywords:"testing,test",

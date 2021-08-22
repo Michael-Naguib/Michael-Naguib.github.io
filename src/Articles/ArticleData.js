@@ -16,7 +16,7 @@ function getFormattedDate(date) {
 * */
 const data = [
     {
-        title:"Test",
+        title:"Articles",
         date:getFormattedDate(new Date()),
         caption:"This is an example of an article",
         keywords:"testing,test",
