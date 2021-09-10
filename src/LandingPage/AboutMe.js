@@ -31,9 +31,8 @@ function AboutMe(){
                             <Image src={process.env.PUBLIC_URL+"/AboutMePhotoFixed.webp"} roundedCircle fluid></Image>
                         </Col>
                         <Col xs={12} md={8} style={{marginTop:"50px",color:fontColor,fontSize:"1.9em"}}>
-                             Hi, my name is Michael Naguib. I am a college student pursuing a BS in Computer Science and Mathematics.
-                                I currently do research in multi-agent artificial intelligence and have experience with GPU accelerated computing.
-
+                            Hi, my name is Michael Naguib. I am a college student pursuing a BS in Computer Science and Mathematics.
+                            I have experience in Multiagent research and are a curious learner who enjoys designing algorithmic processes!
                         </Col>
                         <Col style={{marginTop:"50px",color:fontColor,fontSize:"1.2em"}}>
                             <div className="text-left">
