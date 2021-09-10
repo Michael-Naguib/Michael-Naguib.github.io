@@ -1,12 +1,12 @@
 import {Container, Jumbotron} from "react-bootstrap";
 import React from "react";
-import Navigation from "../Navigation";
+import Navigation from "../../Components/Navigation";
 import Row from "react-bootstrap/Row";
 import {getDisplayMode} from "../../Util/util";
 import Col from "react-bootstrap/Col";
 import MathJax from "react-mathjax";
 
-function Article1(props){
+function MonteCarloPi(props){
     const dark= getDisplayMode()=="dark";
     const fontColor= dark?"white":"black";
     const mainImage="https://images.unsplash.com/photo-1513012372342-f0031630af0e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80)"
@@ -14,7 +14,7 @@ function Article1(props){
         <Navigation/>
         <MathJax.Provider >
         <Jumbotron fluid style={{backgroundImage:"url('"+mainImage+"'",overflow:"hidden",backgroundSize:"cover",paddingLeft:"5vw",paddingRight:"5vw"}}>
-            <Container style={{backgroundColor: "rgba(255, 255, 255, .45)", backdropFilter:" blur(5px)",padding:"20px",borderRadius:"10px"}}>
+            <Container style={{backgroundColor: "rgba(255, 255, 255, .45)", backdropFilter:" blur(5px)",padding:"20px",borderRadius:"10px",margin:"8vw"}}>
 
                 <h1>Fluid Monte carlo pi</h1>
                 <p>
@@ -71,14 +71,14 @@ function Article1(props){
     </div>);
 }
 
-const article1Data =  {
+const MonteCarloPiData =  {
     title:"Monte Carlo Pi Simulation",
     date:(new Date()).toString(),
     caption:"Monte carlo simulations can be computed in higher dimensions",
     keywords:"Math,Monte Carlo, Approximation, Pi",
     pLink:"/Articles/MonteCarloPi",
     imgSrc:"https://images.unsplash.com/photo-1608561028990-47a3a8538ba6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
-    component: Article1
+    component: MonteCarloPi
 }
 
-export default article1Data;
+export default MonteCarloPi

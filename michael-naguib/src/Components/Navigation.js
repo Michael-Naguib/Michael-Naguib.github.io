@@ -22,7 +22,7 @@ function Navigation(props) {
                     <Link className={"nav-link"} to={"/#Projects"}> Projects</Link>
                     <Link className={"nav-link"} to={"/#Contact"}> Contact</Link>
                     <Link className={"nav-link"} to={"/Demos"}> Demos</Link>
-                    <Link className={"nav-link"} to={"/ArticlesPage"}> Articles</Link>
+                    <Link className={"nav-link"} to={"/Articles"}> Articles</Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

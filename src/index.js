@@ -13,7 +13,7 @@ const LandingPage = lazy(() => import('./LandingPage/LandingPage'));
 const ParticleSimulation = lazy(() => import("./Demos/ParticleSimulation.js"));
 const PrivatePolicy = lazy(()=>import('./LandingPage/PrivatePolicy.js'));
 const FallingCubes = lazy(()=>import('./FallingCubes/FallingCubes.js'));
-const ArticlesPage = lazy(()=>import('./Articles/ArticlesPage'));
+const Test = lazy(()=>import('./Articles/Test'));
 // YIKES that little overhead made it much worse!!!
 */
 import LandingPage from './LandingPage/LandingPage';

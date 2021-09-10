@@ -1,6 +1,7 @@
 import MathJax from "react-mathjax";
 import React from "react";
-import article1Data from "../Components/Articles/Article1.js";
+import MonteCarloPi from "../pages/Articles/MonteCarloPi";
+
 // Coursesy of github: https://stackoverflow.com/questions/11591854/format-date-to-mm-dd-yyyy-in-javascript
 //Modified for use
 function getFormattedDate(date) {
@@ -21,16 +22,31 @@ const data = [
         caption:"This is an example of an article",
         keywords:"testing,test",
         pLink:"/Articles/test",
+        readTime:"10 min",
+        author:" Michael Naguib",
+        authorEmail:"1michael.naguib@gmail.com",
         imgSrc:"https://images.unsplash.com/photo-1551207046-b56c35384080?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
         component: (props)=><div>TEST PAGE<h1 style={{color:"red"}}>EXAMPLE ARTICLE... NOT REAL</h1></div>
     },
-    article1Data,
+    {
+        title:"Monte Carlo Pi Simulation",
+        date:(new Date()).toString(),
+        caption:"Monte carlo simulations can be computed in higher dimensions",
+        keywords:"Math,Monte Carlo, Approximation, Pi",
+        pLink:"/Articles/MonteCarloPi",
+        readTime:"10 min",
+        author:" Michael Naguib",
+        authorEmail:"1michael.naguib@gmail.com",
+        imgSrc:"https://images.unsplash.com/photo-1608561028990-47a3a8538ba6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+        component: MonteCarloPi
+    },
     {
         title:"Merge Sort Algorithm",
         date:(new Date()).toString(),
         caption:"Merge sort is a stable algorithm for sorting a list in O(nlogn) time",
         keywords:"Algorithms,Datastructures,Merge Sort, Sorting",
         pLink:"/Articles/MergeSort-Algorithm",
+        readTime:"10 min",
         imgSrc:"https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
         component: (props)=><div>Merge Sort<h1 style={{color:"red"}}>EXAMPLE ARTICLE... NOT REAL</h1></div>
     },
@@ -40,6 +56,9 @@ const data = [
         caption:"Quick Sort is an adaptive sorting algorithm sorting in Amortorized O(nlogn)",
         keywords:"Algorithms,Datastructures,Quick Sort, Sorting",
         pLink:"/Articles/QuickSort-Algorithm",
+        readTime:"10 min",
+        author:" Michael Naguib",
+        authorEmail:"1michael.naguib@gmail.com",
         imgSrc:"https://images.unsplash.com/photo-1484662020986-75935d2ebc66?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=80",
         component: (props)=><div>QuickSort<h1 style={{color:"red"}}>EXAMPLE ARTICLE... NOT REAL</h1></div>
     },
@@ -49,6 +68,9 @@ const data = [
         caption:"An opinion piece on why PI is better than TAU",
         keywords:"Math,Constants,Pi,Tau",
         pLink:"/Articles/TauVsPi",
+        readTime:"10 min",
+        author:" Michael Naguib",
+        authorEmail:"1michael.naguib@gmail.com",
         imgSrc:"https://images.unsplash.com/photo-1589705637779-d959371018dc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
         component: (props)=><div>Pi VS TAU</div>
     },
@@ -58,6 +80,9 @@ const data = [
         caption:"Are the weight matricies that come from neural networks Diagonalizable? Is this a desired?",
         keywords:"NN,ANN,Neural Networks,AI,ML,Machine Learning,Linear Algebra, Eigen Values",
         pLink:"/Articles/Neural-Networks-Eigen-Value-Decomposition",
+        readTime:"10 min",
+        author:" Michael Naguib",
+        authorEmail:"1michael.naguib@gmail.com",
         imgSrc:"https://images.unsplash.com/photo-1542382257-80dedb725088?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
         component: (props)=><div>Neural Networks <h1 style={{color:"red"}}>EXAMPLE ARTICLE... NOT REAL</h1></div>
     },
@@ -67,6 +92,9 @@ const data = [
         caption: <MathJax.Node  formula={`f(a) = \\frac{1}{2\\pi i} \\oint\\frac{f(z)}{z-a}dz`} />,
         keywords:"Cauchy,Integral,integration,formula,mathematics,math",
         pLink:"/Articles/Cauchy-Integral-Formula",//Tim Scalzo 's Image via unsplash
+        readTime:"10 min",
+        author:" Michael Naguib",
+        authorEmail:"1michael.naguib@gmail.com",
         imgSrc:"https://images.unsplash.com/photo-1593792287216-63d6852cc3a8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
         component: (props)=><MathJax.Provider ><h1 style={{color:"red"}}>EXAMPLE ARTICLE... NOT REAL</h1><MathJax.Node  formula={`f(a) = \\frac{1}{2\\pi i} \\oint\\frac{f(z)}{z-a}dz`} /></MathJax.Provider>
     }

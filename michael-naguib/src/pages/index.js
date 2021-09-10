@@ -1,11 +1,12 @@
-import React from "react"
+import React from "react";
 import Navigation from "../Components/Navigation";
+import { Link } from "gatsby";
 
-
-export default function MainPage() {
+export default function Index() {
   return(
       <div>
-        <Navigation/>
+          <Navigation/>
+
       </div>
   )
 }
