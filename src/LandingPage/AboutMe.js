@@ -32,7 +32,7 @@ function AboutMe(){
                         </Col>
                         <Col xs={12} md={8} style={{marginTop:"50px",color:fontColor,fontSize:"1.9em"}}>
                             Hi, my name is Michael Naguib. I am a college student pursuing a BS in Computer Science and Mathematics.
-                            I have experience in Multiagent research and have a great curiosity for algorithmic processes. 
+                            I have experience in Multiagent research and have a great curiosity for algorithmic processes.
                         </Col>
                         <Col style={{marginTop:"50px",color:fontColor,fontSize:"1.2em"}}>
                             <div className="text-left">

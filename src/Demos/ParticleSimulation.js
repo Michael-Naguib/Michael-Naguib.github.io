@@ -14,8 +14,65 @@ class Simulation extends React.Component{
         this.renderer.setSize( window.innerWidth, window.innerHeight );
         this.scene.background = new THREE.Color( 0xff0000 );
         document.body.appendChild( this.renderer.domElement );
+
         //Camera Setup
         this.camera.position.z = 15;
+
+        //Particle Simulation Settings
+        this.settings={
+            // Bounding Viewbox: max x,y,z
+            dimMaxX: 100,
+            dimMaxY:100,
+            dimMaxZ:100,
+            // Particle Settings
+            mass: 1 ,               // Base Mass
+            massVariance: 0,        // Defines the variance from Base Mass
+            massToSizeRatio: 1,     // Defines how big a particle should be drawn in terms of its mass,
+            particleQuantity: 100,  // Particle Quantities
+            maxForce: 9.81,
+            // Force Relative Strengths: (must add to 1)
+            attractionRelativeStrength: 0.25,
+            cohesionRelativeStrength: 0.25,
+            repulsionRelativeStrength:0.25,
+            mouseTargetRelativeStrength:0.25,
+            // Coloring Function: bind it to this object!
+            colorFunction: (()=>{ //NOTE: must be bound to this class to access properties!
+                const color = new THREE.Color();
+                for(var i=0;i<this.settings.particleQuantity*3;i+=3){
+
+                    //Calculate the color as HSL Black
+                    color.setHSL( 0.0, 1.0, 1.0 );// Optimize GPU by commenting this out
+
+                    //Set the color
+                    this.colors[i] = color.r;//R
+                    this.colors[i+1] = color.g;//G
+                    this.colors[i+2] = color.b;//B
+                }
+
+            }).bind(this)
+
+
+
+        }
+
+        // Particle Simulation variables
+        this.positions = []         // Positions of the particles
+        this.velocities = []        // Velocities of the particles
+        this.accelerations = []     // Accelerations of the particles
+        this.forces = []            // Force sums acting on the particles
+        this.masses= []             // Masses of the particles
+        this.colors=[]              // Color of each particle
+        this.sizes=[]               // Particle Display Size
+
+        // Particle Geometry
+        this.swarmGeometry = new THREE.BufferGeometry();
+        this.swarmGeometry.setAttribute( 'position', new THREE.Float32BufferAttribute( this.positions, 3 ).setUsage( THREE.DynamicDrawUsage ) );
+        this.swarmGeometry.setAttribute( 'color', new THREE.Float32BufferAttribute( this.colors, 3 ).setUsage( THREE.DynamicDrawUsage ) );
+        this.swarmGeometry.setAttribute( 'size', new THREE.Float32BufferAttribute( this.sizes, 1 ).setUsage( THREE.DynamicDrawUsage ) );
+
+        // Create the Particles
+        this.swarmParticles = new THREE.Points( this.swarmGeometry );
+
 
         // Basic Geometry: CUBE
         this.geometry = new THREE.SphereGeometry(1,25,25);
@@ -88,9 +145,32 @@ class Simulation extends React.Component{
         this.camera.updateProjectionMatrix();
         this.renderer.setSize(window.innerWidth, window.innerHeight);
     }
+
+    initParticleSimulationVariables(){
+
+        // Init Masses
+
+        // Init Sizes
+        for (var i=0;i<this.settings.particleQuantity;i++){
+            this.sizes.push(this.masses[i]*this.settings.massToSizeRatio)
+        }
+
+        // Init Colors (black)
+        for (var i=0;i<this.settings.particleQuantity*3;i++){
+            this.colors.push(0);
+        }
+
+        // Recolor using the coloring function
+
+
+
+    }
+
     animate() {
         // Get the next frame (async call)
         requestAnimationFrame( ()=>{this.animate()} );
+
+        /*
         //Do the next animation work
         this.cube.rotation.x += 0.01;
         this.cube.rotation.y += 0.01;
@@ -110,6 +190,7 @@ class Simulation extends React.Component{
             this.cube.position.z = this.cube.position.z%bound;
         }
         this.atime+=0.01;
+        */
 
         //Update the renderer and controls
         this.renderer.render( this.scene, this.camera );
@@ -120,6 +201,7 @@ class Simulation extends React.Component{
 
         </div>);
     }
+
 }
 const devMode = false;
 //https://threejsfundamentals.org/threejs/lessons/threejs-primitives.html

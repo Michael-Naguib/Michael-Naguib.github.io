@@ -28,7 +28,7 @@ function Media(){
                     </a>
                 </Col>
                 <Col xs={6} md={4} >
-                    <a href={process.env.PUBLIC_URL+"/Michael-Naguib-Resume-3-31-2021.pdf"} download>
+                    <a href={process.env.PUBLIC_URL+"/Michael-Naguib-Resume-9-10-2021.pdf"} download>
                         <Image className="ContactImage" style={{height:"90px"}}src={process.env.PUBLIC_URL+"/icons8-document.svg"}/>
                     </a>
                 </Col>
