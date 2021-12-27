@@ -2,128 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a08d9bf-d9b9-4f96-af31-b2cc7b8dded7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/michael-naguib.github.io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/website.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/projects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/3dFractal.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/3dFractal.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/AboutMePhotoFixed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/AboutMePhotoFixed.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/BlueFallingCubes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/BoidsSimGif.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/BoidsSimGif.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/BoidsSimGif.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/BrushScriptMT.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/BrushScriptMT.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/BrushScriptMT.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/BrushScriptMT.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/BrushScriptMT.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/CatepillarRave.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/CatepillarRave.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ErrorMeme.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Euler.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/FCubesCropHighRes.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/FCubesCropHighRes.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Fractal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Fractal2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/LI-Bug.svg.original.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/LaPinkFallingCubes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/LinkPreviewImage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/LinkPreviewImage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Michael Naguib.vcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Michael-Naguib-Resume-9-10-2021.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/MyFirstCubeRender.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Octocat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Octocat.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Octocat.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/PFallingCubes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/PiEqn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/RBlueFallingCubes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/RLaPinkFallingCubes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/RPFallingCubes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/SlowedFallingCubesCropped.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/SlowedFallingCubesCropped.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/SlowedFallingCubesCropped.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/android-chrome-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/business.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/communications.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/exampleGA.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/exampleGA.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/exampleGA.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/felix-mittermeier-Knwea-mLGAg-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/iconfinder_gmail_1220367.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons8-document.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/jeremy-bishop-uAfZBP-GtiA-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mark-basarab-1OtUkD_8svc-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/me.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mtslolam.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/newman.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/splash-video-2.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/splash-video-3-small-mobile.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/splash-video-3-small.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/splash-video-3.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tenor.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tenor.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Articles/ArticleData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Articles/Articles/Article1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Articles/Articles/Chaotic Fractals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Articles/ArticlesPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navigation.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demos/ParticleSimulation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FallingCubes/FallingCubes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FallingCubes/FallingCubes.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FallingCubes/FallingCubesCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/AboutMe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/Contact.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/LandingPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/LandingPage.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/Octocat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/PrivacyNotice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/PrivatePolicy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/ProjectCards/ConwaysCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/ProjectCards/CryptoCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/ProjectCards/EulersCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/ProjectCards/Fractals2DCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/ProjectCards/Fractals3DCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/ProjectCards/GeneticCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/ProjectCards/GithubCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/ProjectCards/MontePiCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/ProjectCards/ParticleSimCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/Projects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/Splash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/Splash.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/UnsplashPhoto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPage/UnsplashPhoto.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Util/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/blog/guide-to-using-images-in-nextjs.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/data/blog/guide-to-using-images-in-nextjs.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/blog/introducing-tailwind-nextjs-starter-blog.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/data/blog/introducing-tailwind-nextjs-starter-blog.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/blog/new-features-in-v1.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/data/blog/new-features-in-v1.mdx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -146,10 +29,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layouts/ListLayout.js">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="59" selection-start-line="59" selection-end-line="67" selection-end-column="29" />
+            <state relative-caret-position="323">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/blog/new-features-in-v1.mdx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="275" column="22" selection-start-line="275" selection-start-column="22" selection-end-line="275" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/sitemap.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/404.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -158,60 +64,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/projectsData.js">
+        <entry file="file://$PROJECT_DIR$/pages/tags.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/tailwind.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tailwind.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="-123">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/headerNavLinks.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/blog.js">
+        <entry file="file://$PROJECT_DIR$/pages/projects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="136">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/blog/deriving-ols-estimator.mdx">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/authors/default.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="408">
+                <caret line="24" selection-start-line="24" selection-end-line="24" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/Link.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -232,10 +130,16 @@
       <find>discuss on</find>
       <find>PostPage</find>
       <find>src</find>
+      <find>sparrowhawk</find>
+      <find>sparrow</find>
     </findStrings>
     <dirStrings>
       <dir>D:\GitHub\michael-naguib.github.io\data</dir>
       <dir>D:\GitHub\michael-naguib.github.io</dir>
+      <dir>E:\GitHub\michael-naguib.github.io</dir>
+      <dir>E:\GitHub\michael-naguib.github.io\data\blog</dir>
+      <dir>E:\GitHub\michael-naguib.github.io\pages</dir>
+      <dir>E:\GitHub\michael-naguib.github.io\</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -251,13 +155,38 @@
         <option value="$PROJECT_DIR$/components/Footer.js" />
         <option value="$PROJECT_DIR$/layouts/PostLayout.js" />
         <option value="$PROJECT_DIR$/data/authors/default.md" />
-        <option value="$PROJECT_DIR$/data/blog/new-features-in-v1.mdx" />
         <option value="$PROJECT_DIR$/data/siteMetadata.js" />
         <option value="$PROJECT_DIR$/data/blog/the-time-machine.mdx" />
         <option value="$PROJECT_DIR$/layouts/ListLayout.js" />
         <option value="$PROJECT_DIR$/tailwind.config.js" />
         <option value="$PROJECT_DIR$/pages/index.js" />
         <option value="$PROJECT_DIR$/data/headerNavLinks.js" />
+        <option value="$PROJECT_DIR$/components/Link.js" />
+        <option value="$PROJECT_DIR$/data/blog/guide-to-using-images-in-nextjs.mdx" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.next/export/blog/deriving-ols-estimator.html" />
+        <option value="$PROJECT_DIR$/data/blog/introducing-tailwind-nextjs-starter-blog.mdx" />
+        <option value="$PROJECT_DIR$/.next/export/blog.json" />
+        <option value="$PROJECT_DIR$/.next/export/index.html" />
+        <option value="$PROJECT_DIR$/.next/export/blog/new-features-in-v1.json" />
+        <option value="$PROJECT_DIR$/.next/export/blog/new-features-in-v1.html" />
+        <option value="$PROJECT_DIR$/.next/export/blog/nested-route/introducing-multi-part-posts-with-nested-routing.html" />
+        <option value="$PROJECT_DIR$/.next/export/blog/nested-route/introducing-multi-part-posts-with-nested-routing.json" />
+        <option value="$PROJECT_DIR$/.next/export/tags/next-js.html" />
+        <option value="$PROJECT_DIR$/.next/export/tags/next-js.json" />
+        <option value="$PROJECT_DIR$/.next/export/tags/tailwind.json" />
+        <option value="$PROJECT_DIR$/.next/export/tags/guide.json" />
+        <option value="$PROJECT_DIR$/data/blog/new-features-in-v1.mdx" />
+        <option value="$PROJECT_DIR$/.next/export/tags/tailwind.html" />
+        <option value="$PROJECT_DIR$/.next/export/tags/guide.html" />
+        <option value="$PROJECT_DIR$/.next/export/blog/page/1.json" />
+        <option value="$PROJECT_DIR$/.next/export/blog/page/2.json" />
+        <option value="$PROJECT_DIR$/.next/export/blog/guide-to-using-images-in-nextjs.html" />
+        <option value="$PROJECT_DIR$/.next/export/blog/guide-to-using-images-in-nextjs.json" />
+        <option value="$PROJECT_DIR$/.next/export/blog/page/2.html" />
+        <option value="$PROJECT_DIR$/.next/export/blog/page/1.html" />
+        <option value="$PROJECT_DIR$/.next/export/index.json" />
+        <option value="$PROJECT_DIR$/.next/export/blog.html" />
       </list>
     </option>
   </component>
@@ -273,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,32 +212,19 @@
             <path>
               <item name="michael-naguib.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="michael-naguib.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="michael-naguib.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="michael-naguib.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="michael-naguib.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="michael-naguib.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="michael-naguib.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="michael-naguib.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -344,14 +259,16 @@
       <workItem from="1637944767615" duration="65000" />
       <workItem from="1637946748801" duration="8959000" />
       <workItem from="1637956098355" duration="4854000" />
+      <workItem from="1640574492398" duration="4512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13878000" />
+    <option name="totallyTimeSpent" value="18390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18631178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -410,40 +327,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/social-icons/facebook.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/social-icons/github.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/social-icons/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/ThemeSwitch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/social-icons/linkedin.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/social-icons/mail.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/social-icons/twitter.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/social-icons/youtube.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -472,16 +355,6 @@
           <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/404.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -524,9 +397,7 @@
         <state relative-caret-position="-1262" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/images/avatar.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/images/avatar.png" />
     <entry file="file://$PROJECT_DIR$/components/MDXComponents.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -572,16 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/authors/default.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="102">
-            <caret line="6" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/about.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -598,20 +459,6 @@
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/blog/new-features-in-v1.mdx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -654,16 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/projects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/PostLayout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -684,41 +521,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/AuthorLayout.js">
+    <entry file="file://$PROJECT_DIR$/css/prism.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tags.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/siteMetadata.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/ListLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="59" selection-start-line="59" selection-end-line="67" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1758" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/projectsData.js">
@@ -726,11 +531,6 @@
         <state relative-caret-position="289">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/prism.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1758" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/tailwind.css">
@@ -749,7 +549,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="204">
           <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
@@ -766,10 +566,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="374">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/AuthorLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/ListLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Link.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/siteMetadata.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="218">
+            <caret line="154" column="22" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/authors/default.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="408">
+            <caret line="24" selection-start-line="24" selection-end-line="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.next/export/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1214" selection-start-column="1214" selection-end-column="1214" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.next/export/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="6" column="100948" selection-start-line="6" selection-start-column="100948" selection-end-line="6" selection-end-column="100948" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.next/export/blog.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1228" selection-start-column="1228" selection-end-column="1228" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/blog/deriving-ols-estimator.mdx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/blog/new-features-in-v1.mdx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="275" column="22" selection-start-line="275" selection-start-column="22" selection-end-line="275" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/404.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tags.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/projects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
