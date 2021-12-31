@@ -1,5 +1,4 @@
 import Link from '@/components/Link'
-import Image from '../components/Image'
 
 export default function FourZeroFour() {
   return (

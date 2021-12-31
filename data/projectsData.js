@@ -6,26 +6,15 @@ const projectsData = [
     for.`,
     imgSrc: '/static/images/google.png',
     href: 'https://www.google.com',
-    vidSrc: '',
-    date: 'May 2020',
   },
   {
-    title: 'Boids Simulation',
-    description: `An implementation of Craig Renyolds Boids; done in O(nlogn) by fractally subdiviging space using a KD-Tree to approximate nearest neighbors`,
-    imgSrc: '/static/images/Boids-Simulation.gif',
-    href: `https://github.com/Michael-Naguib/BoidsSimulation`,
-    vidSrc: '',
-    date: 'May 2020',
-  },
-  {
-    title: 'Chaotic 3D Fractals',
-    description: `Derived the equations for 3D variants of 2D fractals and displayed using GPU acelerated Point Cloud viewer.`,
-    imgSrc: '/static/images/Chaotic-3D-Fractal.gif',
-    href: `https://github.com/Michael-Naguib/ChaoticIFSFractal3D`,
-    vidSrc: '',
-    date: 'May 2020',
+    title: 'The Time Machine',
+    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
+    to the desired date and press "Go". No more worrying about lost keys or
+    forgotten headphones with this simple yet affordable solution.`,
+    imgSrc: '/static/images/time-machine.jpg',
+    href: '/blog/the-time-machine',
   },
 ]
-//href: '/blog/the-time-machine',
 
 export default projectsData
