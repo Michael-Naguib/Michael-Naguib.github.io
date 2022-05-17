@@ -1,16 +1,16 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
+name: Michael Naguib
+avatar: /static/images/MichaelAvatar.webp
+occupation: Software Engineer Intern, CS Tutor & Undergrad Researcher
+company: L3 Harris Aeromet & The University of Tulsa
+email: 1michael.naguib@gmail.com
 twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+linkedin: https://www.linkedin.com/in/michael-naguib1/
+github: https://github.com/Michael-Naguib
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Michael Naguib is a college student pursuing a BS in Computer Science, with hopes of continuing on to a Masters & PhD. I have experience in Multi-agent research and have a great curiosity for algorithmic processes.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+Often I will code a project simply because it sounds interesting. The solution to a problem is not always nearly as interesting to me as the process needed to compute the solution. Understanding the fundamental logic and intuitive steps of a process for me is one of the more rewarding aspects of my field of study; understanding the rationality of an individual's choices can inform me as to similar manners of thinking for when I attempt to solve a new problem. I try to work smarter not harder, ironically however when you can't work smarter, the smartest move is to work harder, as figuring it out will let you work smarter when you recognize the same issue in the future.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+In my free time I will often take time to read, program, or hangout with friends. My hobbies include XC Running 🏃, Coding 👨‍💻, Drone Racing Quadcopters ✈️, & Boldering 🧗 . I am always up for a challenge whether it be abstract or otherwise.
