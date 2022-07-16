@@ -34,6 +34,7 @@ Coded by www.creative-tim.com
   9. The `columns` key is used to define that how the content should look inside the dropdown menu as columns,
           you can set the columns amount based on this key.
   10. The `rowsPerColumn` key is used to define that how many rows should be in a column.
+
 */
 
 // @mui material components
@@ -52,6 +53,7 @@ import DesktopApp from "layouts/pages/apps/desktop-app";
 import SingleArticle from "layouts/pages/blogs/single-article";
 import Author from "layouts/pages/blogs/author";
 import VirtualRealityPage from "layouts/pages/extra/virtual-reality";
+import FlockingPage from "layouts/pages/projects/flocking";
 
 // Account
 import SignInBasicPage from "layouts/authentication/sign-in/basic";
@@ -103,8 +105,18 @@ const routes = [
     name: "pages",
     icon: <Icon>dashboard</Icon>,
     columns: 3,
-    rowsPerColumn: 2,
+    rowsPerColumn: 3,
     collapse: [
+      {
+        name: "projects",
+        collapse: [
+          {
+            name: "Flocking",
+            route: "/pages/projects/flocking",
+            component: <FlockingPage />,
+          },
+        ],
+      },
       {
         name: "landing pages",
         collapse: [
