@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import React from "react";
+// import React from "react";
 import { GPU } from 'gpu.js';
 
 
@@ -42,17 +42,16 @@ const FLOCKING_DEFAULT_SETTINGS = {
 
 }
 
-export default class Flocking_View {
+export default class FlockingView {
 
-  constructor(canvasRef,init_settings = FLOCKING_DEFAULT_SETTINGS ) {
+  constructor(canvasRef,initSettings = FLOCKING_DEFAULT_SETTINGS ) {
 
     // Flocking View Settings: (deep copy init) access this directly
-    this.settings = JSON.parse(JSON.stringify(init_settings));
-
-    //GPU Compute
+    this.settings = JSON.parse(JSON.stringify(initSettings));
+    // GPU Compute
     this.gpu = new GPU();
 
-    //Scene_Template and Renderer
+    // Scene_Template and Renderer
     this.scene = new THREE.Scene();
     this.renderer = new THREE.WebGLRenderer({
       canvas: canvasRef,
@@ -60,7 +59,7 @@ export default class Flocking_View {
     });
     this.renderer.setPixelRatio(window.devicePixelRatio);
 
-    //Camera Setup
+    // Camera Setup
     this.camera = new THREE.PerspectiveCamera( this.settings.camera_fov, this.settings.render_width / this.settings.render_height, 1, 1000 );
     this.camera.position.x = this.settings.camera_pos.x;
     this.camera.position.y = this.settings.camera_pos.y;
@@ -68,64 +67,64 @@ export default class Flocking_View {
     this.scene.add( this.camera );
 
     // Init the simulation
-    this.init_flocking()
+    this.initFlocking()
 
     // Initial Render Loop Call With Current timestamp
     this.update(performance.now());
   }
 
   // ******************* Flocking Calculation ******************* //
-  init_flocking(){
-    //Three JS Stuff
+  initFlocking(){
+    // Three JS Stuff
     this.point_geometry =  new THREE.BufferGeometry();
 
-    //Simulation Properties
+    // Simulation Properties
     this.colors=[]
     this.positions=[]
     this.velocities=[]
-    //this.masses=[]//TODO: future feature
+    // this.masses=[]// TODO: future feature
     this.force_sum=[]
 
     // Init Colors (all black)
-    let color = THREE.Color(0,0,0);
-    for(let i =0;i<this.settings.particle_count;i++){
+    const color = new THREE.Color(0,0,0);
+    for(let i =0;i<this.settings.particle_count;i++){ // eslint-disable-line no-plusplus
       this.colors.push(color.r,color.g,color.b);
     }
 
     // Init Random Positions: (all within settings.flocking_region)
-    for(let i =0;i<this.settings.particle_count;i++){
-      //X Coordinate
-      let x_delta = this.settings.flocking_region.x_max- this.settings.flocking_region.x_min
-      this.positions.push(Math.floor(this.settings.flocking_region.x_min + x_delta*Math.random()));
-      //Y Coordinate
-      let y_delta = this.settings.flocking_region.y_max- this.settings.flocking_region.y_min
-      this.positions.push(Math.floor(this.settings.flocking_region.y_min + y_delta*Math.random()));
-      //Z Coordinate
-      let z_delta = this.settings.flocking_region.z_min- this.settings.flocking_region.z_min
-      this.positions.push(Math.floor(this.settings.flocking_region.z_min + z_delta*Math.random()));
+    for(let i =0;i<this.settings.particle_count;i++){ // eslint-disable-line no-plusplus
+      // X Coordinate
+      const xDelta = this.settings.flocking_region.x_max- this.settings.flocking_region.x_min
+      this.positions.push(Math.floor(this.settings.flocking_region.x_min + xDelta*Math.random()));
+      // Y Coordinate
+      const yDelta = this.settings.flocking_region.y_max- this.settings.flocking_region.y_min
+      this.positions.push(Math.floor(this.settings.flocking_region.y_min + yDelta*Math.random()));
+      // Z Coordinate
+      const zDelta = this.settings.flocking_region.z_min- this.settings.flocking_region.z_min
+      this.positions.push(Math.floor(this.settings.flocking_region.z_min + zDelta*Math.random()));
     }
 
     // Init Random Velocities: (10% - 15%  the max world dim  per time_step)
-    for(let i =0;i<this.settings.particle_count;i++){
-      let rand_scale = (0.15-0.1)*Math.random() + 0.1
-      //X Velocity
-      let x_delta = this.settings.flocking_region.x_max- this.settings.flocking_region.x_min
-      this.positions.push(Math.floor(rand_scale*x_delta));
-      //Y Velocity
-      let y_delta = this.settings.flocking_region.y_max- this.settings.flocking_region.y_min
-      this.positions.push(Math.floor(rand_scale*y_delta));
-      //Z Velocity
-      let z_delta = this.settings.flocking_region.z_min- this.settings.flocking_region.z_min
-      this.positions.push(Math.floor(rand_scale*z_delta));
+    for(let i =0;i<this.settings.particle_count;i++){ // eslint-disable-line no-plusplus
+      const randScale = (0.15-0.1)*Math.random() + 0.1
+      // X Velocity
+      const xDelta = this.settings.flocking_region.x_max- this.settings.flocking_region.x_min
+      this.positions.push(Math.floor(randScale*xDelta));
+      // Y Velocity
+      const yDelta = this.settings.flocking_region.y_max- this.settings.flocking_region.y_min
+      this.positions.push(Math.floor(randScale*yDelta));
+      // Z Velocity
+      const zDelta = this.settings.flocking_region.z_min- this.settings.flocking_region.z_min
+      this.positions.push(Math.floor(randScale*zDelta));
     }
 
     // Init: Empty forces
-    for(let i =0;i<this.settings.particle_count;i++){
+    for(let i =0;i<this.settings.particle_count;i++){// eslint-disable-line no-plusplus
       this.force_sum.push(0.0);
     }
 
 
-    //Three JS Studd
+    // Three JS Stud
     this.point_geometry.setAttribute(
       'position',
       new THREE.Float32BufferAttribute(this.positions, 3)
@@ -134,13 +133,14 @@ export default class Flocking_View {
 
     this.point_material = new THREE.PointsMaterial({
       size: 3,
-      vertexColors: THREE.VertexColors,
+      vertexColors: true,
     });
 
     this.points = new THREE.Points(this.point_geometry, this.point_material);
     this.scene.add(this.points);
   }
-  calculate_flocking_step(){
+  
+  calculateFlockingStep(){// eslint-disable-line class-methods-use-this
 
       // KD Tree Region Partitioning
       // GPU Local Cluster Force Updates
@@ -148,11 +148,11 @@ export default class Flocking_View {
   }
 
   // ******************* PUBLIC EVENTS ******************* //
-  updateValue(value) {
+  updateValue(value) { // eslint-disable-line class-methods-use-this, no-unused-vars
     // Whatever you need to do with React props
   }
 
-  onMouseMove() {
+  onMouseMove() { // eslint-disable-line class-methods-use-this
     // Mouse moves
   }
 
@@ -168,13 +168,13 @@ export default class Flocking_View {
   }
 
   // ******************* RENDER LOOP ******************* //
-  update(t) {
-    //Perform Calculation
-    this.calculate_flocking_step();
-    //Testning Feature
+  update(t) {// eslint-disable-line no-unused-vars
+    // Perform Calculation
+    this.calculateFlockingStep();
+    // Testing Feature
     this.points.rotation.x += 0.001;
     this.points.rotation.y += 0.002;
-    //Render
+    // Render
     this.renderer.render(this.scene, this.camera);
     requestAnimationFrame(this.update.bind(this));
   }

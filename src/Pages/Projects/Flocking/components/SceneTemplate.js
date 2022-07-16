@@ -1,8 +1,8 @@
 import React from 'react';
-import View_Template from './View_Template';
+import ViewTemplate from './ViewTemplate';
 import * as THREE from 'three';
 
-export default class Scene_Template extends React.Component {
+export default class SceneTemplate extends React.Component {
     constructor(props) {
         super(props);
         this.viewGL = undefined;
@@ -12,7 +12,7 @@ export default class Scene_Template extends React.Component {
     // ******************* COMPONENT LIFECYCLE ******************* //
     componentDidMount() {
         // Get canvas, pass to custom class
-        this.viewGL = new View_Template( this.canvasRef.current);
+        this.viewGL = new ViewTemplate( this.canvasRef.current);
 
         // Init any event listeners
         window.addEventListener('mousemove', this.mouseMove);

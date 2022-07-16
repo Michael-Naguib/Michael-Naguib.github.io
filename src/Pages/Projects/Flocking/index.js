@@ -40,16 +40,41 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 // Presentation page components
 // import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
 
-// import Flocking_Scene from "pages/Projects/Flocking/components/Flocking_Scene"
+import FlockingScene from "pages/Projects/Flocking/components/FlockingScene"
 
 // Routes
 import routes from "routes";
 import footerRoutes from "footer.routes";
+import * as THREE from "three";
 
 // Starling Murmuration
 import bgImage from "assets/images/celine-haeberly-_i3K3-srQzQ-unsplash.jpg";
 
+function threeDemo(){ // eslint-disable-line no-unused-vars
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+
+  const renderer = new THREE.WebGLRenderer();
+  renderer.setSize(window.innerWidth, window.innerHeight );
+  document.body.appendChild(renderer.domElement );
+  const geometry = new THREE.BoxGeometry(1, 1, 1 );
+  const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 } );
+  const cube = new THREE.Mesh(geometry, material );
+  scene.add(cube);
+  camera.position.z = 5;
+
+  function animate() {
+    requestAnimationFrame( animate );
+    cube.rotation.x += 0.01;
+    cube.rotation.y += 0.01;
+    renderer.render( scene, camera );
+
+  }
+  animate();
+}
+
 function Flocking() {
+  // threeDemo();
   return (
     <>
       <DefaultNavbar
@@ -105,7 +130,7 @@ function Flocking() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        {/* <Flocking_Scene /> */}
+        <FlockingScene />
         {/* <Counters /> */}
         {/* <Information /> */}
         {/* <DesignBlocks /> */}

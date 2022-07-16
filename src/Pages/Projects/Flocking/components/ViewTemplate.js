@@ -2,7 +2,7 @@
 import React from "react";
 import { GPU } from 'gpu.js';
 
-export default class View_Template {
+export default class ViewTemplate {
 
     constructor(canvasRef) {
         //GPU Compute

@@ -1,8 +1,8 @@
 import React from 'react';
-import Flocking_View from './Flocking_View';
-import * as THREE from 'three';
+import FlockingView from './FlockingView';
 
-export default class Scene_Template extends React.Component {
+
+export default class FlockingScene extends React.Component {
     constructor(props) {
         super(props);
         this.viewGL = undefined;
@@ -12,15 +12,14 @@ export default class Scene_Template extends React.Component {
     // ******************* COMPONENT LIFECYCLE ******************* //
     componentDidMount() {
         // Get canvas, pass to custom class
-        this.viewGL = new Flocking_View( this.canvasRef.current);
+        this.viewGL = new FlockingView( this.canvasRef.current);
 
         // Init any event listeners
         window.addEventListener('mousemove', this.mouseMove);
         window.addEventListener('resize', this.handleResize);
     }
 
-    componentDidUpdate(prevProps, prevState) {
-
+    componentDidUpdate(prevProps, prevState) {// eslint-disable-line no-unused-vars
         /*
         * Do whatever with the new state and modify the view
         * */
@@ -34,16 +33,17 @@ export default class Scene_Template extends React.Component {
     }
 
     // ******************* EVENT LISTENERS ******************* //
-    mouseMove = (event) => {
+    mouseMove = (event) => { // eslint-disable-line no-unused-vars
         this.viewGL.onMouseMove();
     }
+
     handleResize = () => {
         this.viewGL.onWindowResize(window.innerWidth, window.innerHeight);
     };
 
     render() {
         return (
-            <div className="canvasContainer">
+            <div className="flocking-scene">
                 <canvas ref={this.canvasRef} />
             </div>
         );
