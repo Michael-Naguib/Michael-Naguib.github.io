@@ -53,12 +53,6 @@ function Presentation() {
     <>
       <DefaultNavbar
         routes={routes}
-        action={{
-          type: "external",
-          route: "https://material-ui.com/store/items/otis-kit-pro-material-kit-react/",
-          label: "buy now",
-          color: "info",
-        }}
         sticky
       />
       <MKBox

@@ -45,11 +45,11 @@ import CoworkingPage from "layouts/pages/landing-pages/coworking";
 import Rental from "layouts/pages/landing-pages/rental";
 import AboutUs from "layouts/pages/company/about-us";
 import Pricing from "layouts/pages/company/pricing";
-import HelpCenter from "layouts/pages/support/help-center";
-import ContactUs from "layouts/pages/support/contact-us";
-import Faq from "layouts/pages/support/faq";
+import HelpCenter from "layouts/pages/support/help-center";// eslint-disable-line no-unused-vars
+import ContactUs from "layouts/pages/support/contact-us";// eslint-disable-line no-unused-vars
+import Faq from "layouts/pages/support/faq";// eslint-disable-line no-unused-vars
 import Privacy from "layouts/pages/support/privacy";
-import DesktopApp from "layouts/pages/apps/desktop-app";
+import DesktopApp from "layouts/pages/apps/desktop-app";// eslint-disable-line no-unused-vars
 import SingleArticle from "layouts/pages/blogs/single-article";
 import Author from "layouts/pages/blogs/author";
 import VirtualRealityPage from "layouts/pages/extra/virtual-reality";
@@ -57,49 +57,49 @@ import FlockingPage from "layouts/pages/projects/flocking";
 import Me from "layouts/pages/about/me";
 
 // Account
-import SignInBasicPage from "layouts/authentication/sign-in/basic";
-import SignInCoverPage from "layouts/authentication/sign-in/cover";
-import SignInIllustration from "layouts/authentication/sign-in/illustration";
-import SignInSimplePage from "layouts/authentication/sign-in/simple";
-import SignUpCoverPage from "layouts/authentication/sign-up/cover";
-import ResetPasswordPage from "layouts/authentication/reset-password/cover";
+import SignInBasicPage from "layouts/authentication/sign-in/basic";// eslint-disable-line no-unused-vars
+import SignInCoverPage from "layouts/authentication/sign-in/cover";// eslint-disable-line no-unused-vars
+import SignInIllustration from "layouts/authentication/sign-in/illustration";// eslint-disable-line no-unused-vars
+import SignInSimplePage from "layouts/authentication/sign-in/simple";// eslint-disable-line no-unused-vars
+import SignUpCoverPage from "layouts/authentication/sign-up/cover";// eslint-disable-line no-unused-vars
+import ResetPasswordPage from "layouts/authentication/reset-password/cover";// eslint-disable-line no-unused-vars
 
 // Sections
-import PageHeaders from "layouts/sections/page-sections/page-headers";
-import Features from "layouts/sections/page-sections/featuers";
-import PricingSection from "layouts/sections/page-sections/pricing";
-import FaqSection from "layouts/sections/page-sections/faq";
-import BlogPosts from "layouts/sections/page-sections/blog-posts";
-import Testimonials from "layouts/sections/page-sections/testimonials";
-import Teams from "layouts/sections/page-sections/teams";
-import Stats from "layouts/sections/page-sections/stats";
-import Cta from "layouts/sections/page-sections/cta";
-import Applications from "layouts/sections/page-sections/applications";
-import LogoAreas from "layouts/sections/page-sections/logo-areas";
-import Footers from "layouts/sections/page-sections/footers";
-import GeneralCards from "layouts/sections/page-sections/general-cards";
-import ContentSections from "layouts/sections/page-sections/content-sections";
-import Navbars from "layouts/sections/navigation/navbars";
-import NavTabs from "layouts/sections/navigation/nav-tabs";
-import Pagination from "layouts/sections/navigation/pagination";
-import Newsletters from "layouts/sections/input-areas/newsletters";
-import ContactSections from "layouts/sections/input-areas/contact-sections";
-import Inputs from "layouts/sections/input-areas/inputs";
-import Forms from "layouts/sections/input-areas/forms";
-import Alerts from "layouts/sections/attention-catchers/alerts";
-import Notifications from "layouts/sections/attention-catchers/notifications";
-import Modals from "layouts/sections/attention-catchers/modals";
-import TooltipsPopovers from "layouts/sections/attention-catchers/tooltips-popovers";
-import Avatars from "layouts/sections/elements/avatars";
-import Badges from "layouts/sections/elements/badges";
-import BreadcrumbsEl from "layouts/sections/elements/breadcrumbs";
-import Buttons from "layouts/sections/elements/buttons";
-import Dropdowns from "layouts/sections/elements/dropdowns";
-import ProgressBars from "layouts/sections/elements/progress-bars";
-import SocialButtons from "layouts/sections/elements/social-buttons";
-import Tables from "layouts/sections/elements/tables";
-import Toggles from "layouts/sections/elements/toggles";
-import Typography from "layouts/sections/elements/typography";
+import PageHeaders from "layouts/sections/page-sections/page-headers";// eslint-disable-line no-unused-vars
+import Features from "layouts/sections/page-sections/featuers";// eslint-disable-line no-unused-vars
+import PricingSection from "layouts/sections/page-sections/pricing";// eslint-disable-line no-unused-vars
+import FaqSection from "layouts/sections/page-sections/faq";// eslint-disable-line no-unused-vars
+import BlogPosts from "layouts/sections/page-sections/blog-posts";// eslint-disable-line no-unused-vars
+import Testimonials from "layouts/sections/page-sections/testimonials";// eslint-disable-line no-unused-vars
+import Teams from "layouts/sections/page-sections/teams";// eslint-disable-line no-unused-vars
+import Stats from "layouts/sections/page-sections/stats";// eslint-disable-line no-unused-vars
+import Cta from "layouts/sections/page-sections/cta";// eslint-disable-line no-unused-vars
+import Applications from "layouts/sections/page-sections/applications";// eslint-disable-line no-unused-vars
+import LogoAreas from "layouts/sections/page-sections/logo-areas";// eslint-disable-line no-unused-vars
+import Footers from "layouts/sections/page-sections/footers";// eslint-disable-line no-unused-vars
+import GeneralCards from "layouts/sections/page-sections/general-cards";// eslint-disable-line no-unused-vars
+import ContentSections from "layouts/sections/page-sections/content-sections";// eslint-disable-line no-unused-vars
+import Navbars from "layouts/sections/navigation/navbars";// eslint-disable-line no-unused-vars
+import NavTabs from "layouts/sections/navigation/nav-tabs";// eslint-disable-line no-unused-vars
+import Pagination from "layouts/sections/navigation/pagination";// eslint-disable-line no-unused-vars
+import Newsletters from "layouts/sections/input-areas/newsletters";// eslint-disable-line no-unused-vars
+import ContactSections from "layouts/sections/input-areas/contact-sections";// eslint-disable-line no-unused-vars
+import Inputs from "layouts/sections/input-areas/inputs";// eslint-disable-line no-unused-vars
+import Forms from "layouts/sections/input-areas/forms";// eslint-disable-line no-unused-vars
+import Alerts from "layouts/sections/attention-catchers/alerts";// eslint-disable-line no-unused-vars
+import Notifications from "layouts/sections/attention-catchers/notifications";// eslint-disable-line no-unused-vars
+import Modals from "layouts/sections/attention-catchers/modals";// eslint-disable-line no-unused-vars
+import TooltipsPopovers from "layouts/sections/attention-catchers/tooltips-popovers";// eslint-disable-line no-unused-vars
+import Avatars from "layouts/sections/elements/avatars";// eslint-disable-line no-unused-vars
+import Badges from "layouts/sections/elements/badges";// eslint-disable-line no-unused-vars
+import BreadcrumbsEl from "layouts/sections/elements/breadcrumbs";// eslint-disable-line no-unused-vars
+import Buttons from "layouts/sections/elements/buttons";// eslint-disable-line no-unused-vars
+import Dropdowns from "layouts/sections/elements/dropdowns";// eslint-disable-line no-unused-vars
+import ProgressBars from "layouts/sections/elements/progress-bars";// eslint-disable-line no-unused-vars
+import SocialButtons from "layouts/sections/elements/social-buttons";// eslint-disable-line no-unused-vars
+import Tables from "layouts/sections/elements/tables";// eslint-disable-line no-unused-vars
+import Toggles from "layouts/sections/elements/toggles";// eslint-disable-line no-unused-vars
+import Typography from "layouts/sections/elements/typography";// eslint-disable-line no-unused-vars
 
 const routes = [
   {
@@ -155,7 +155,7 @@ const routes = [
       },
       {
         name: "support",
-        collapse: [
+        collapse: [/*
           {
             name: "help center",
             route: "/pages/support/help-center",
@@ -170,7 +170,7 @@ const routes = [
             name: "faq",
             route: "/pages/support/faq",
             component: <Faq />,
-          },
+          }, */
           {
             name: "privacy",
             route: "/pages/support/privacy",
@@ -178,7 +178,7 @@ const routes = [
           },
         ],
       },
-      {
+/*       {
         name: "apps",
         collapse: [
           {
@@ -187,7 +187,7 @@ const routes = [
             component: <DesktopApp />,
           },
         ],
-      },
+      }, */
       {
         name: "blogs",
         collapse: [
@@ -215,6 +215,7 @@ const routes = [
       },
     ],
   },
+  /*
   {
     name: "account",
     icon: <Icon>contacts</Icon>,
@@ -510,7 +511,7 @@ const routes = [
         href: "https://www.creative-tim.com/learning-lab/material-ui-marketplace/datepicker/otis-kit/",
       },
     ],
-  },
+  }, */
 ];
 
 export default routes;
