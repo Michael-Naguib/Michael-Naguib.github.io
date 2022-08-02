@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="523b2d99-5b54-4d82-b131-92e0d1d3c121" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pages/About/Me/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/About/Me/sections/Contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/About/Me/sections/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/About/Me/sections/Posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/About/Me/sections/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/pages/about/me/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Projects/Flocking/components/FlockingView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Projects/Flocking/components/FlockingView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +72,7 @@
       <workItem from="1657991495687" duration="11767000" />
       <workItem from="1658013246663" duration="5186000" />
       <workItem from="1659398626038" duration="4000" />
-      <workItem from="1659398669192" duration="1458000" />
+      <workItem from="1659398669192" duration="4273000" />
     </task>
     <servers />
   </component>
@@ -126,6 +118,12 @@
           <line>25</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/About/Me/sections/Profile.js</url>
+          <line>66</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

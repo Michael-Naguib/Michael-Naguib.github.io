@@ -16,7 +16,7 @@ Coded by www.creative-tim.com
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
+import Icon from "@mui/material/Icon";// eslint-disable-line no-unused-vars
 
 // Otis Kit PRO components
 import MKBox from "components/MKBox";
@@ -26,6 +26,9 @@ import MKTypography from "components/MKTypography";
 
 // Images
 import profilePicture from "assets/images/Michael_Naguib.webp";
+
+// Additional Displays // for another day
+// import GitHubCalendar from 'react-github-calendar';
 
 function Profile() {
   return (
@@ -43,7 +46,7 @@ function Profile() {
               <Grid container spacing={3} mb={3}>
                 <Grid item>
                   <MKTypography component="span" variant="body2" fontWeight="bold">
-                    323&nbsp;
+                    0!&nbsp;
                   </MKTypography>
                   <MKTypography component="span" variant="body2" color="text">
                     Posts
@@ -51,49 +54,35 @@ function Profile() {
                 </Grid>
                 <Grid item>
                   <MKTypography component="span" variant="body2" fontWeight="bold">
-                    3.5k&nbsp;
+                    &lfloor;π&rfloor;-&lfloor;e&rfloor;&nbsp;
                   </MKTypography>
                   <MKTypography component="span" variant="body2" color="text">
-                    Followers
+                    Published papers
                   </MKTypography>
                 </Grid>
                 <Grid item>
                   <MKTypography component="span" variant="body2" fontWeight="bold">
-                    260&nbsp;
+                    Research&nbsp;
                   </MKTypography>
                   <MKTypography component="span" variant="body2" color="text">
-                    Following
+                    Experience
                   </MKTypography>
                 </Grid>
               </Grid>
               <MKTypography variant="body1" fontWeight="light" color="text">
-                Decisions: If you can&apos;t decide, the answer is no. If two equally difficult
-                paths, choose the one more painful in the short term (pain avoidance is creating an
-                illusion of equality). Choose the path that leaves you more equanimous. <br />
-                <MKTypography
-                  component="a"
-                  href="#"
-                  variant="body1"
-                  fontWeight="light"
-                  color="info"
-                  mt={3}
-                  sx={{
-                    width: "max-content",
-                    display: "flex",
-                    alignItems: "center",
-
-                    "& .material-icons-round": {
-                      transform: `translateX(3px)`,
-                      transition: "transform 0.2s cubic-bezier(0.34, 1.61, 0.7, 1.3)",
-                    },
-
-                    "&:hover .material-icons-round, &:focus .material-icons-round": {
-                      transform: `translateX(6px)`,
-                    },
-                  }}
-                >
-                  More about me <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
-                </MKTypography>
+                I am a Software Engineer with B.S. in Computer Science and a B.S. with focus in Mathematics. I have experience
+                in Multiagent systems research and have a great curiosity for figuring out how things work. Ever since I was little
+                the natural world around me fascinated me, whether it was observing the behavior of ants, hot wiring a makeshift motor circuit,
+                or taking my first steps into programming,  I have endeavored to try to understand the way things work. To me concepts, algorithms,
+                and mathematics present themselves as uniquely intricate structures which can interact with another in an infinitely diverse number
+                of ways. Part of the satisfaction I find in my line of work is that I get to pluck one or several branches from this infinitely sized tree to
+                create something new directed at solving the task at hand. This is a very human-centered process despite the fact that it involves utilizing
+                a large variety of computational resources and tools. Often I have found the human intuition about coming to the solution reveals more than
+                the solution itself. Understanding the fundamental logic and intuitive steps of a process is what makes my work gratifying and interesting.
+                I seek to understand the rationality of people who wrote the textbook so to speak, not just the axiomatic statements put forth. I have found
+                that this is what leads to true understanding and creativity when crafting an algorithm no one has ever seen before, as you are no longer constructing
+                with the building blocks passed on to you but with the mind of the architect who sculpted them.<br/><br/>
+                I&apos;m also not a robot (who eats real food 🍪)  and enjoys hobbies such as XC Running 🏃, Rock Climbing 🧗, & Guitar 🎸.
               </MKTypography>
             </Grid>
           </Grid>

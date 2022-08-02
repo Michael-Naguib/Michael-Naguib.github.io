@@ -25,7 +25,7 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 // Author page sections
 import Profile from "pages/About/Me/sections/Profile";
 import Posts from "pages/About/Me/sections/Posts";
-import Contact from "pages/About/Me/sections/Contact";
+import Contact from "pages/About/Me/sections/Contact";// eslint-disable-line no-unused-vars
 import Footer from "pages/About/Me/sections/Footer";
 
 // Routes
@@ -72,7 +72,7 @@ function Me() {
           <Profile />
           <Posts />
         </Card>
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
       </MKBox>
     </>
