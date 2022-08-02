@@ -54,6 +54,7 @@ import SingleArticle from "layouts/pages/blogs/single-article";
 import Author from "layouts/pages/blogs/author";
 import VirtualRealityPage from "layouts/pages/extra/virtual-reality";
 import FlockingPage from "layouts/pages/projects/flocking";
+import Me from "layouts/pages/about/me";
 
 // Account
 import SignInBasicPage from "layouts/authentication/sign-in/basic";
@@ -133,15 +134,20 @@ const routes = [
         ],
       },
       {
-        name: "company",
+        name: "About",
         collapse: [
           {
-            name: "about us",
+            name: "Me",
+            route: "/pages/about/me",
+            component: <Me />,
+          },
+          {
+            name: "Education",
             route: "/pages/company/about-us",
             component: <AboutUs />,
           },
           {
-            name: "pricing",
+            name: "CV",
             route: "/pages/company/pricing",
             component: <Pricing />,
           },
