@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="523b2d99-5b54-4d82-b131-92e0d1d3c121" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Pages/Projects/ChaoticFractal3D/components/ImageCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Projects/ChaoticFractal3D/components/gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Projects/ChaoticFractal3D/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Presentation/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Presentation/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/Blogs/MichaelNaguib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/layouts/pages/projects/chaoticfractal3d" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -47,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\michael-naguib.github.io\src\layouts\pages\projects\chaoticfractal3d" />
       <recent name="E:\GitHub\michael-naguib.github.io\src\pages\Blogs\MichaelNaguib" />
       <recent name="E:\GitHub\michael-naguib.github.io\src\layouts\pages\about\me" />
       <recent name="E:\GitHub\michael-naguib.github.io\src\pages\Projects\Flocking\components" />
@@ -74,7 +77,8 @@
       <workItem from="1657991495687" duration="11767000" />
       <workItem from="1658013246663" duration="5186000" />
       <workItem from="1659398626038" duration="4000" />
-      <workItem from="1659398669192" duration="4775000" />
+      <workItem from="1659398669192" duration="4851000" />
+      <workItem from="1661639586610" duration="4335000" />
     </task>
     <servers />
   </component>
@@ -118,13 +122,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/About/Me/index.js</url>
           <line>25</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/About/Me/sections/Profile.js</url>
           <line>66</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

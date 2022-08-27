@@ -100,13 +100,15 @@ import SocialButtons from "layouts/sections/elements/social-buttons";// eslint-d
 import Tables from "layouts/sections/elements/tables";// eslint-disable-line no-unused-vars
 import Toggles from "layouts/sections/elements/toggles";// eslint-disable-line no-unused-vars
 import Typography from "layouts/sections/elements/typography";// eslint-disable-line no-unused-vars
+import ChaoticFractal3D from "pages/Projects/ChaoticFractal3D"; // eslint-disable-line no-unused-vars
+// eslint-disable-line no-unused-vars
 
 const routes = [
   {
     name: "pages",
     icon: <Icon>dashboard</Icon>,
     columns: 3,
-    rowsPerColumn: 3,
+    rowsPerColumn: 2,
     collapse: [
       {
         name: "projects",
@@ -115,6 +117,11 @@ const routes = [
             name: "Flocking",
             route: "/pages/projects/flocking",
             component: <FlockingPage />,
+          },
+          {
+            name: "Chaotic Fractals in 3D",
+            route: "/pages/projects/chaotic-fractal-3d",
+            component: <ChaoticFractal3D />,
           },
         ],
       },
