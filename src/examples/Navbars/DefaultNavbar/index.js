@@ -551,7 +551,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
 
 // Setting default values for the props of DefaultNavbar
 DefaultNavbar.defaultProps = {
-  brand: "Otis Kit PRO",
+  brand: "Michael Naguib",
   transparent: false,
   light: false,
   action: false,

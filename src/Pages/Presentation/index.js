@@ -20,7 +20,7 @@ import Card from "@mui/material/Card";
 
 // Otis Kit PRO components
 import MKBox from "components/MKBox";
-import MKBadge from "components/MKBadge";
+// import MKBadge from "components/MKBadge";
 import MKTypography from "components/MKTypography";
 import MKSocialButton from "components/MKSocialButton";
 
@@ -79,18 +79,10 @@ function Presentation() {
                 },
               })}
             >
-              Otis Kit{" "}
-              <MKBadge
-                badgeContent="pro"
-                size="lg"
-                variant="contained"
-                color="white"
-                container
-                sx={{ mt: -4 }}
-              />
+              Michael Naguib 
             </MKTypography>
             <MKTypography variant="body1" color="white" textAlign="center" px={6} mt={1}>
-              Start the Development with a ReactJS & MUI Design System inspired by Material Design.
+              Computer Scientist - Software Developer - Guitarist - Rock Climber 
             </MKTypography>
           </Grid>
         </Container>

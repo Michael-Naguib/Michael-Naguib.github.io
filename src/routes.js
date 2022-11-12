@@ -44,7 +44,7 @@ import Icon from "@mui/material/Icon";
 import CoworkingPage from "layouts/pages/landing-pages/coworking";
 import Rental from "layouts/pages/landing-pages/rental";
 import AboutUs from "layouts/pages/company/about-us";
-import Pricing from "layouts/pages/company/pricing";
+import Pricing from "layouts/pages/company/pricing"; // eslint-disable-line no-unused-vars
 import HelpCenter from "layouts/pages/support/help-center";// eslint-disable-line no-unused-vars
 import ContactUs from "layouts/pages/support/contact-us";// eslint-disable-line no-unused-vars
 import Faq from "layouts/pages/support/faq";// eslint-disable-line no-unused-vars
@@ -55,6 +55,7 @@ import Author from "layouts/pages/blogs/author";
 import VirtualRealityPage from "layouts/pages/extra/virtual-reality";
 import FlockingPage from "layouts/pages/projects/flocking";
 import Me from "layouts/pages/about/me";
+import CV from "layouts/pages/about/cv";
 
 // Account
 import SignInBasicPage from "layouts/authentication/sign-in/basic";// eslint-disable-line no-unused-vars
@@ -155,8 +156,8 @@ const routes = [
           },
           {
             name: "CV",
-            route: "/pages/company/pricing",
-            component: <Pricing />,
+            route: "/pages/about/CV",
+            component: <CV />,
           },
         ],
       },
