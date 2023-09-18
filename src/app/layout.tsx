@@ -21,16 +21,19 @@ import LogoutIcon from '@mui/icons-material/Logout';
 import ThemeRegistry from '@/components/ThemeRegistry/ThemeRegistry';
 
 export const metadata = {
-  title: 'Next.js App Router + Material UI v5',
-  description: 'Next.js App Router + Material UI v5',
+  title: 'Michael Naguibs Homepage',
+  description: 'Homepage of Michael Naguib: Computer Scientist - Mathmatician -  Software Engineer',
 };
 
 const DRAWER_WIDTH = 240;
 
 const LINKS = [
   { text: 'Home', href: '/', icon: HomeIcon },
-  { text: 'Starred', href: '/starred', icon: StarIcon },
-  { text: 'Tasks', href: '/tasks', icon: ChecklistIcon },
+  { text: 'Projects', href: '/projects', icon: StarIcon },
+  { text: 'CV', href: '/cv', icon: HomeIcon },
+  { text: 'About', href: '/about', icon: StarIcon },
+  { text: 'Projects', href: '/projects', icon: StarIcon },
+  { text: 'Resources', href: '/projects', icon: StarIcon },
 ];
 
 const PLACEHOLDER_LINKS = [
@@ -72,19 +75,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               {LINKS.map(({ text, href, icon: Icon }) => (
                 <ListItem key={href} disablePadding>
                   <ListItemButton component={Link} href={href}>
-                    <ListItemIcon>
-                      <Icon />
-                    </ListItemIcon>
-                    <ListItemText primary={text} />
-                  </ListItemButton>
-                </ListItem>
-              ))}
-            </List>
-            <Divider sx={{ mt: 'auto' }} />
-            <List>
-              {PLACEHOLDER_LINKS.map(({ text, icon: Icon }) => (
-                <ListItem key={text} disablePadding>
-                  <ListItemButton>
                     <ListItemIcon>
                       <Icon />
                     </ListItemIcon>
