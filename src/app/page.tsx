@@ -10,7 +10,9 @@ import AlertTitle from '@mui/material/AlertTitle';
 import MediaCard from '@/components/MediaCard';
 import AboutTeaser from '@/components/about/AboutTeaser';
 import ProjectTeaser from '@/components/projects/ProjectTeaser';
+import CvTeaser from '@/components/cv/cvTeaser';
 import Divider from '@mui/material/Divider';
+//TODO: add google track https://stackoverflow.com/questions/49279820/adding-google-analytics-to-react
 
 export default function HomePage() {
   return (
@@ -19,6 +21,7 @@ export default function HomePage() {
         <AboutTeaser/>
         <Divider/>
         <ProjectTeaser/>
+        <CvTeaser/>
       </div>
     </Box>
   );

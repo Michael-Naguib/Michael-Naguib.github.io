@@ -88,41 +88,41 @@ function ProjectCard(props){
     return (
         <Paper elevation={3}>
             <Typography variant="h4" sx={{paddingTop:"20px"}}>Projects</Typography>
-        <Grid container={true} spacing={2} padding={2} wrap='wrap' alignItems="center">
-            <Grid item md={4} xs={12}>
-                <CardMedia
-                    sx={{ height: 300 }}
-                    image={props.project.imgSrc}
-                    title="project cover image"
-                />
-            </Grid>
-            <Grid item md={8} xs={12}>
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                        {props.project.title}
-                    </Typography>
-                    <Stack
-                    direction="row"
-                    justifyContent="flex-start"
-                    alignItems="center"
-                    spacing={1}
-                    flexWrap='wrap'
-                    >
+            <Grid container={true} spacing={2} padding={2} wrap='wrap' alignItems="center">
+                <Grid item md={4} xs={12}>
+                    <CardMedia
+                        sx={{ height: 300 }}
+                        image={props.project.imgSrc}
+                        title="project cover image"
+                    />
+                </Grid>
+                <Grid item md={8} xs={12}>
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                            {props.project.title}
+                        </Typography>
+                        <Stack
+                        direction="row"
+                        justifyContent="flex-start"
+                        alignItems="center"
+                        spacing={1}
+                        flexWrap='wrap'
+                        >
+                            {
+                            props.project.tags.map( (tag, i) => <Chip key={i} variant="outlined" label={tag} color="primary" size="small"/> )
+                            }
+                        </Stack>
+                        <Typography variant="body2" sx={{marginTop:"20px"}}color="text.secondary">
+                            {props.project.description}
+                        </Typography>
+                    </CardContent>
+                    <CardActions style={{ display: "flex", justifyContent: "flex-end" }}>
                         {
-                        props.project.tags.map( (tag, i) => <Chip key={i} variant="outlined" label={tag} color="primary" size="small"/> )
+                            props.project.links.map( (link, i) => <Button key={i} size="small" component={Link} href={link.url}> {link.title}</Button> )
                         }
-                    </Stack>
-                    <Typography variant="body2" sx={{marginTop:"20px"}}color="text.secondary">
-                        {props.project.description}
-                    </Typography>
-                </CardContent>
-                <CardActions style={{ display: "flex", justifyContent: "flex-end" }}>
-                    {
-                        props.project.links.map( (link, i) => <Button key={i} size="small" component={Link} href={link.url}> {link.title}</Button> )
-                    }
-                </CardActions>
+                    </CardActions>
+                </Grid>
             </Grid>
-        </Grid>
     </Paper>
     );
 }
