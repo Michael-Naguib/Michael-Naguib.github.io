@@ -87,7 +87,7 @@ var projects = [
 function ProjectCard(props){
     return (
         <Paper elevation={3}>
-            <Typography variant="h4" sx={{paddingTop:"20px"}}>Projects</Typography>
+            <Typography variant="h4" p={2} >Projects</Typography>
             <Grid container={true} spacing={2} padding={2} wrap='wrap' alignItems="center">
                 <Grid item md={4} xs={12}>
                     <CardMedia

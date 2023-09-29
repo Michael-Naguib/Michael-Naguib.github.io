@@ -21,7 +21,7 @@ export default function AboutTeaser() {
     return (
         <Paper elevation={3} style={{backgroundSize:"cover",backgroundImage:"url(https://images.unsplash.com/photo-1484856299450-fb14549bca50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1898&q=80"}}>
             <Grid container={true} spacing={2} padding={2} wrap='wrap' alignItems="center">
-                <Grid item md={4} xs={12}>
+                <Grid item md={4} xs={12} m={3}>
                     <CardMedia
                         sx={{borderRadius:"50%",objectFit: "contain" }}
                         component="img"

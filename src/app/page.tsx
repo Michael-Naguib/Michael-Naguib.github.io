@@ -21,6 +21,7 @@ export default function HomePage() {
         <AboutTeaser/>
         <Divider/>
         <ProjectTeaser/>
+        <Divider/>
         <CvTeaser/>
       </div>
     </Box>
